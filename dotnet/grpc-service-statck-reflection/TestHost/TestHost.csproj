@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+    <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.14.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.1" />
+            <PackageReference Include="Grpc.Net.ClientFactory" Version="2.67.0" />
+  </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="../iFX/H4H.iFX.ServiceModel/H4H.iFX.ServiceModel.csproj" />
+      <ProjectReference Include="../services/LibraryAccess.Service/LibraryAccess.Service.csproj" />
+      <ProjectReference Include="../services/LibraryAccess/LibraryAccess.csproj" />
+    </ItemGroup>
+
+</Project>

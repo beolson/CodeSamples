@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "LibraryAccess";
+
+package SampleLibraryAccess;
+
+// The greeting service definition.
+service LibraryAccessService {
+  // Sends a greeting
+  rpc GetMessage (GetMessageRequest) returns (GetMessageReply);
+}
+
+// The request message containing the user's name.
+message GetMessageRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message GetMessageReply {
+  string message = 1;
+}

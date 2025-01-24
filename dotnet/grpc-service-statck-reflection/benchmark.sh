@@ -1,0 +1,1 @@
+dotnet run -c Release --project TestHost/TestHost.csproj -- benchmark
