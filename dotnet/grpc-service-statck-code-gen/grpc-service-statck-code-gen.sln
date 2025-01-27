@@ -7,6 +7,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{58
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iFX", "iFX", "{0AE080A0-6033-AFD8-AF81-D8288F43ED0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryAccess", "services\LibraryAccess\LibraryAccess.csproj", "{005839EE-2553-409F-92FD-7DDA3177E8B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryAccess.Service", "services\LibraryAccess.Service\LibraryAccess.Service.csproj", "{CA58336C-3E1B-4F99-B3C0-EF66953E29EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{DB5E4CF7-C271-4BE5-B3A7-105FA014E035}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H4H.iFX.ServiceModel", "iFX\H4H.iFX.ServiceModel\H4H.iFX.ServiceModel.csproj", "{7B74D562-6039-4385-A091-F208DC000727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H4H.iFX.ServiceModel.CodeGen", "iFX\H4H.iFX.ServiceModel.CodeGen\H4H.iFX.ServiceModel.CodeGen.csproj", "{12020B91-4928-42CA-8CCC-05C57A81D093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H4H.iFX.ServiceModel.CodeGen.Tests", "iFX\H4H.iFX.ServiceModel.CodeGen.Tests\H4H.iFX.ServiceModel.CodeGen.Tests.csproj", "{4EEF8FC5-4D34-4DB2-AF31-6018CF956C16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +26,38 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{005839EE-2553-409F-92FD-7DDA3177E8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005839EE-2553-409F-92FD-7DDA3177E8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005839EE-2553-409F-92FD-7DDA3177E8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005839EE-2553-409F-92FD-7DDA3177E8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA58336C-3E1B-4F99-B3C0-EF66953E29EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA58336C-3E1B-4F99-B3C0-EF66953E29EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA58336C-3E1B-4F99-B3C0-EF66953E29EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA58336C-3E1B-4F99-B3C0-EF66953E29EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5E4CF7-C271-4BE5-B3A7-105FA014E035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5E4CF7-C271-4BE5-B3A7-105FA014E035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5E4CF7-C271-4BE5-B3A7-105FA014E035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5E4CF7-C271-4BE5-B3A7-105FA014E035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B74D562-6039-4385-A091-F208DC000727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B74D562-6039-4385-A091-F208DC000727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B74D562-6039-4385-A091-F208DC000727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B74D562-6039-4385-A091-F208DC000727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12020B91-4928-42CA-8CCC-05C57A81D093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12020B91-4928-42CA-8CCC-05C57A81D093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12020B91-4928-42CA-8CCC-05C57A81D093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12020B91-4928-42CA-8CCC-05C57A81D093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EEF8FC5-4D34-4DB2-AF31-6018CF956C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EEF8FC5-4D34-4DB2-AF31-6018CF956C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EEF8FC5-4D34-4DB2-AF31-6018CF956C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EEF8FC5-4D34-4DB2-AF31-6018CF956C16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{005839EE-2553-409F-92FD-7DDA3177E8B5} = {5854FF58-B8C5-05C6-5BF2-ACE42193F22B}
+		{CA58336C-3E1B-4F99-B3C0-EF66953E29EE} = {5854FF58-B8C5-05C6-5BF2-ACE42193F22B}
+		{7B74D562-6039-4385-A091-F208DC000727} = {0AE080A0-6033-AFD8-AF81-D8288F43ED0E}
+		{12020B91-4928-42CA-8CCC-05C57A81D093} = {0AE080A0-6033-AFD8-AF81-D8288F43ED0E}
+		{4EEF8FC5-4D34-4DB2-AF31-6018CF956C16} = {0AE080A0-6033-AFD8-AF81-D8288F43ED0E}
 	EndGlobalSection
 EndGlobal
