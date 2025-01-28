@@ -64,10 +64,9 @@
   </ItemGroup>
 
   <ItemGroup>
-      <None 
-         Include="obj\Debug\net9.0\Protos\**" 
-         CopyToOutputDirectory="PreserveNewest" 
-         />
+      <Content Include="obj\Debug\net9.0\Protos\**" 
+                CopyToOutputDirectory="PreserveNewest" 
+                Link="Protos\%(Filename)%(Extension)" />
     </ItemGroup>
 
 </Project>

@@ -1,3 +1,4 @@
+using System.Buffers;
 using System.Runtime.InteropServices;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
@@ -12,28 +13,47 @@ public static class SourceGeneratorTestHelper
     )
     {
         // Parse the provided string into a C# syntax tree
-        SyntaxTree syntaxTree = CSharpSyntaxTree.ParseText(source);
+        List<SyntaxTree> trees = new();
+        trees.Add(CSharpSyntaxTree.ParseText(source));
 
-        var st = await GetAThing();
+        using (var reader = File.OpenText("Protos/LibraryAccess.cs"))
+        {
+            var fileText = await reader.ReadToEndAsync();
+            trees.Add(CSharpSyntaxTree.ParseText(fileText));
+        }
+
+        using (var reader = File.OpenText("Protos/LibraryAccessGrpc.cs"))
+        {
+            var fileText = await reader.ReadToEndAsync();
+            trees.Add(CSharpSyntaxTree.ParseText(fileText));
+        }
 
         IEnumerable<PortableExecutableReference> references = new[]
         {
             MetadataReference.CreateFromFile(typeof(object).Assembly.Location),
             MetadataReference.CreateFromFile(typeof(ServiceModelAttribute).Assembly.Location),
-            //     // MetadataReference.CreateFromFile(typeof(GreeterClient).Assembly.Location),
-            // MetadataReference.CreateFromFile(
-            //     Path.Combine(RuntimeEnvironment.GetRuntimeDirectory(), "netstandard.dll")
-            // ),
+            MetadataReference.CreateFromFile(
+                typeof(Google.Protobuf.IBufferMessage).Assembly.Location
+            ),
+            MetadataReference.CreateFromFile(
+                typeof(Grpc.Core.AsyncAuthInterceptor).Assembly.Location
+            ),
+            MetadataReference.CreateFromFile(
+                typeof(Grpc.Net.Compression.ICompressionProvider).Assembly.Location
+            ),
+            MetadataReference.CreateFromFile(typeof(IBufferWriter<>).Assembly.Location),
+            MetadataReference.CreateFromFile(
+                Path.Combine(RuntimeEnvironment.GetRuntimeDirectory(), "netstandard.dll")
+            ),
             MetadataReference.CreateFromFile(
                 Path.Combine(RuntimeEnvironment.GetRuntimeDirectory(), "System.Runtime.dll")
             ),
-            //     // MetadataReference.CreateFromFile(typeof(Grpc.Core.ClientBase).Assembly.Location),
         };
 
         // Create a Roslyn compilation for the syntax tree.
         CSharpCompilation compilation = CSharpCompilation.Create(
             assemblyName: "Tests",
-            syntaxTrees: new[] { syntaxTree },
+            syntaxTrees: trees,
             references: references
         );
 
@@ -64,8 +84,8 @@ public static class SourceGeneratorTestHelper
         return Verifier.Verify(driver, settings);
     }
 
-    private static async Task<string> GetAThing()
-    {
-        return typeof(LibraryAccess.LibraryAccess).Assembly.Location;
-    }
+    // private static async Task<string> GetAThing()
+    // {
+    //     return typeof(LibraryAccess.LibraryAccess).Assembly.Location;
+    // }
 }

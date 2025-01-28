@@ -18,11 +18,8 @@ public class UnitTest1
         var source =
             @"
                 using H4H.iFX.ServiceModel;
-
-                namespace LibraryAccess;
-
-                [ServiceModel]
-                public static partial class LibraryAccess { }
+                using static LibraryAccess.LibraryAccess;
+                [assembly: ServiceClient<LibraryAccessClient>]
 
             ";
 

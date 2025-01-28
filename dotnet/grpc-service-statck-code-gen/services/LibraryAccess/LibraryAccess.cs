@@ -1,6 +1,4 @@
 ﻿using H4H.iFX.ServiceModel;
+using static LibraryAccess.LibraryAccess;
 
-namespace LibraryAccess;
-
-[ServiceModel]
-public static partial class LibraryAccess { }
+[assembly: ServiceClient<LibraryAccessClient>]

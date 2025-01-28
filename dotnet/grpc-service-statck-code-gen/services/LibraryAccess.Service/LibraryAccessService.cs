@@ -10,7 +10,6 @@ public class LibraryAccessService : LibraryAccessBase
         ServerCallContext context
     )
     {
-        // await Task.Delay(1000);
         return new GetMessageReply { Message = "Hello " + request.Name };
     }
 }

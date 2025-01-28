@@ -10,10 +10,15 @@ public class ServiceClientGenerator : IIncrementalGenerator
     public void Initialize(IncrementalGeneratorInitializationContext context)
     {
         var enumsToGenerate = context.SyntaxProvider.ForAttributeWithMetadataName(
-            fullyQualifiedMetadataName: "H4H.iFX.ServiceModel.ServiceModelAttribute",
+            fullyQualifiedMetadataName: "H4H.iFX.ServiceModel.ServiceClientAttribute`1",
             predicate: static (s, _) => true,
             transform: static (ctx, _) =>
             {
+                var x = ctx
+                    .Attributes.Select(a => a.AttributeClass)
+                    .Select(a => a.TypeArguments[0].Name)
+                    .ToList();
+
                 var model = GetAThing(ctx.SemanticModel, ctx.TargetNode);
 
                 return new List<string> { "one", "two" };
@@ -41,14 +46,19 @@ public class ServiceClientGenerator : IIncrementalGenerator
     {
         if (
             semanticModel.GetDeclaredSymbol(enumDeclarationSyntax)
-            is not INamedTypeSymbol enumSymbol
+            is not INamedTypeSymbol outerClassSymbol
         )
         {
             // something went wrong
             return null;
         }
 
-        var enumName = enumSymbol.GetMembers().ToList();
+        var enumName = outerClassSymbol.GetMembers().ToList();
+
+        var members = outerClassSymbol
+            .GetMembers()
+            .Where(x => x.Kind == SymbolKind.NamedType)
+            .ToList();
 
         return "one";
         // ITypeSymbol client = ctx.Attributes[0].AttributeClass.TypeArguments[0];
@@ -76,5 +86,36 @@ public class ServiceClientGenerator : IIncrementalGenerator
         //         var ptype = param.Type.ToDisplayString();
         //     }
         // }
+    }
+
+    static string? GetEnumToGenerate(GeneratorAttributeSyntaxContext ctx)
+    {
+        ITypeSymbol client = ctx.Attributes[0].AttributeClass.TypeArguments[0];
+
+        var members = client
+            .GetMembers()
+            .Where(x => x.DeclaredAccessibility == Accessibility.Public)
+            .Where(x => x.Kind == SymbolKind.Method)
+            .OfType<IMethodSymbol>()
+            .Where(x => x.MethodKind == MethodKind.Ordinary)
+            .ToList();
+
+        var attributes = client.GetAttributes();
+
+        var clientNamespace = client.ContainingNamespace.ToDisplayString();
+
+        foreach (var member in members)
+        {
+            var name = member.Name;
+            var returnType = member.ReturnType.ToDisplayString();
+
+            foreach (var param in member.Parameters)
+            {
+                var pname = param.Name;
+                var ptype = param.Type.ToDisplayString();
+            }
+        }
+
+        return "one";
     }
 }
