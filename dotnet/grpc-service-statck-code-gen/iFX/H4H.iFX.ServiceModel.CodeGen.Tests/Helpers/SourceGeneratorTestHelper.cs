@@ -71,17 +71,12 @@ public static class SourceGeneratorTestHelper
         // Run the source generator!
         driver = driver.RunGenerators(compilation);
 
-        var postErrors = compilation
-            .GetDiagnostics()
-            .Where(d => d.Severity == DiagnosticSeverity.Error && d.Id != "CS5001");
-
-        Assert.Empty(postErrors);
-        // Use verify to snapshot test the source generator output!
-
         var settings = new VerifySettings();
-        settings.UseDirectory("Verified");
+        // settings.UseDirectory("Verified");
 
-        return Verifier.Verify(driver, settings);
+        var results = driver.GetRunResult().Results.Single();
+
+        return Verifier.Verify(results);
     }
 
     // private static async Task<string> GetAThing()

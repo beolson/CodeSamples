@@ -4,12 +4,18 @@ using Microsoft.CodeAnalysis;
 
 namespace H4H.iFX.ServiceModel.CodeGen.Tests;
 
+public class VerifyChecksTests
+{
+    [Fact]
+    public Task Run() => VerifyChecks.Run();
+}
+
 public class UnitTest1
 {
     [Fact]
     public void Test1()
     {
-        Assert.True(true);
+        Verify(new UnitTest1());
     }
 
     [Fact]
@@ -19,11 +25,12 @@ public class UnitTest1
             @"
                 using H4H.iFX.ServiceModel;
                 using static LibraryAccess.LibraryAccess;
-                [assembly: ServiceClient<LibraryAccessClient>]
+                [assembly: ServiceClient<LibraryAccessClient, LibraryAccessBase>()]
+                
 
             ";
 
         IIncrementalGenerator generator = new ServiceClientGenerator();
-        await generator.Verify(source);
+        var x = await generator.Verify(source);
     }
 }

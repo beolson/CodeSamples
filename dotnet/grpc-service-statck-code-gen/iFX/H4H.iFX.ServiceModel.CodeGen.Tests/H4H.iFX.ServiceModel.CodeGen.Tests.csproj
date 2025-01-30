@@ -30,13 +30,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
-    <PackageReference Include="xunit.v3" Version="1.0.0" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="3.0.0" />
+    <PackageReference Include="xunit.v3" Version="1.0.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.0.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Verify.SourceGenerators" Version="2.5.0" />
-    <PackageReference Include="Verify.XunitV3" Version="28.6.1" />
+    <PackageReference Include="Verify.XunitV3" Version="28.9.0" />
     <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -64,9 +67,7 @@
   </ItemGroup>
 
   <ItemGroup>
-      <Content Include="obj\Debug\net9.0\Protos\**" 
-                CopyToOutputDirectory="PreserveNewest" 
-                Link="Protos\%(Filename)%(Extension)" />
+      <Content Include="obj\Debug\net9.0\Protos\**" CopyToOutputDirectory="PreserveNewest" Link="Protos\%(Filename)%(Extension)" />
     </ItemGroup>
 
 </Project>
