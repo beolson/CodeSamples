@@ -7,15 +7,15 @@ namespace H4H.iFX.ServiceModel.CodeGen.Tests;
 public class VerifyChecksTests
 {
     [Fact]
-    public Task Run() => VerifyChecks.Run();
+    public async Task Run() => await VerifyChecks.Run();
 }
 
 public class UnitTest1
 {
     [Fact]
-    public void Test1()
+    public async Task Test1()
     {
-        Verify(new UnitTest1());
+        await Verify(new UnitTest1());
     }
 
     [Fact]

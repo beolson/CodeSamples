@@ -7,7 +7,7 @@ namespace H4H.iFX.ServiceModel.CodeGen.Tests.Helpers;
 
 public static class SourceGeneratorTestHelper
 {
-    public static async Task<SettingsTask> Verify(
+    public static async Task<VerifyTests.VerifyResult> Verify(
         this IIncrementalGenerator generator,
         string source
     )
@@ -72,11 +72,9 @@ public static class SourceGeneratorTestHelper
         driver = driver.RunGenerators(compilation);
 
         var settings = new VerifySettings();
-        // settings.UseDirectory("Verified");
+        settings.UseDirectory("Verified");
 
-        var results = driver.GetRunResult().Results.Single();
-
-        return Verifier.Verify(results);
+        return await Verifier.Verify(driver, settings);
     }
 
     // private static async Task<string> GetAThing()
