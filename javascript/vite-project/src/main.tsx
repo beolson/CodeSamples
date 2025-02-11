@@ -7,6 +7,7 @@ import Flow from './sandbox/Flow.tsx';
 import App from './App.tsx';
 import Dnd from './sandbox/dnd/index.tsx';
 import Edit from './sandbox/edit/index.tsx';
+import EditTwo from './sandbox/edittwo.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/Flow" element={<Flow />} />
         <Route path="/Drag" element={<Dnd />} />
         <Route path="/Edit" element={<Edit />} />
+        <Route path="/EditTwo" element={<EditTwo />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

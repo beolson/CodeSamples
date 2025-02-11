@@ -20,6 +20,9 @@ function App() {
         <li>
           <Link to="/Edit">Edit</Link>
         </li>
+        <li>
+          <Link to="/EditTwo">EditTwo</Link>
+        </li>
       </ul>
     </>
   );
