@@ -3,10 +3,10 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router';
 
-import Flow from './Flow.tsx';
+import Flow from './sandbox/Flow.tsx';
 import App from './App.tsx';
-import Dnd from './dnd/index.tsx';
-import Edit from './edit/index.tsx';
+import Dnd from './sandbox/dnd/index.tsx';
+import Edit from './sandbox/edit/index.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
