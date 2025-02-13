@@ -8,6 +8,7 @@ import App from './App.tsx';
 import Dnd from './sandbox/dnd/index.tsx';
 import Edit from './sandbox/edit/index.tsx';
 import EditTwo from './sandbox/edittwo.tsx';
+import EditThree from './sandbox/editthree/index.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/Drag" element={<Dnd />} />
         <Route path="/Edit" element={<Edit />} />
         <Route path="/EditTwo" element={<EditTwo />} />
+        <Route path="/EditThree" element={<EditThree />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
