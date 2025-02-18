@@ -4,7 +4,7 @@ import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router';
 
 import Flow from './sandbox/Flow.tsx';
-import App from './App2.tsx';
+import App from './components/App.tsx';
 import Dnd from './sandbox/dnd/index.tsx';
 import Edit from './sandbox/edit/index.tsx';
 import EditTwo from './sandbox/edittwo.tsx';

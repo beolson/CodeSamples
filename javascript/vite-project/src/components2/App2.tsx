@@ -1,8 +1,5 @@
-import { Avatar } from "./components2/avatar"
-import { Dropdown, DropdownButton, DropdownDivider, DropdownItem, DropdownLabel, DropdownMenu } from "./components2/dropdown"
-import { Navbar, NavbarItem, NavbarSection, NavbarSpacer } from "./components2/navbar"
-import { Sidebar, SidebarBody, SidebarFooter, SidebarHeader, SidebarHeading, SidebarItem, SidebarLabel, SidebarSection, SidebarSpacer } from "./components2/sidebar"
-import { SidebarLayout } from "./components2/sidebar-layout"
+'use client';
+
 import {
   ArrowRightStartOnRectangleIcon,
   ChevronDownIcon,
@@ -12,7 +9,7 @@ import {
   PlusIcon,
   ShieldCheckIcon,
   UserCircleIcon,
-} from '@heroicons/react/16/solid'
+} from '@heroicons/react/16/solid';
 import {
   Cog6ToothIcon,
   HomeIcon,
@@ -20,26 +17,79 @@ import {
   SparklesIcon,
   Square2StackIcon,
   TicketIcon,
-} from '@heroicons/react/20/solid'
+} from '@heroicons/react/20/solid';
+import {
+  Dropdown,
+  DropdownButton,
+  DropdownDivider,
+  DropdownItem,
+  DropdownLabel,
+  DropdownMenu,
+} from './dropdown';
+import { SidebarLayout } from './sidebar-layout';
+import { Navbar, NavbarItem, NavbarSection, NavbarSpacer } from './navbar';
+import { Avatar } from './avatar';
+import {
+  Sidebar,
+  SidebarBody,
+  SidebarFooter,
+  SidebarHeader,
+  SidebarHeading,
+  SidebarItem,
+  SidebarLabel,
+  SidebarSection,
+  SidebarSpacer,
+} from './sidebar';
+import { Key, ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react';
 
+function AccountDropdownMenu({ anchor }: { anchor: 'top start' | 'bottom end' }) {
+  return (
+    <DropdownMenu className="min-w-64" anchor={anchor}>
+      <DropdownItem href="#">
+        <UserCircleIcon />
+        <DropdownLabel>My account</DropdownLabel>
+      </DropdownItem>
+      <DropdownDivider />
+      <DropdownItem href="#">
+        <ShieldCheckIcon />
+        <DropdownLabel>Privacy policy</DropdownLabel>
+      </DropdownItem>
+      <DropdownItem href="#">
+        <LightBulbIcon />
+        <DropdownLabel>Share feedback</DropdownLabel>
+      </DropdownItem>
+      <DropdownDivider />
+      <DropdownItem href="#">
+        <ArrowRightStartOnRectangleIcon />
+        <DropdownLabel>Sign out</DropdownLabel>
+      </DropdownItem>
+    </DropdownMenu>
+  );
+}
 
-
-export default function App() {
-
+export default function ApplicationLayout({
+  events,
+  children,
+}: {
+  events: Awaited<ReturnType<typeof getEvents>>;
+  children: React.ReactNode;
+}) {
+  let pathname = '/';
 
   return (
     <SidebarLayout
       navbar={
-                <Navbar>
-                  <NavbarSpacer />
-                  <NavbarSection>
-                    <Dropdown>
-                      <DropdownButton as={NavbarItem}>
-                        <Avatar src="/users/erica.jpg" square />
-                      </DropdownButton>
-                    </Dropdown>
-                  </NavbarSection>
-                </Navbar>
+        <Navbar>
+          <NavbarSpacer />
+          <NavbarSection>
+            <Dropdown>
+              <DropdownButton as={NavbarItem}>
+                <Avatar src="https://picsum.photos/200" square />
+              </DropdownButton>
+              <AccountDropdownMenu anchor="bottom end" />
+            </Dropdown>
+          </NavbarSection>
+        </Navbar>
       }
       sidebar={
         <Sidebar>
@@ -75,19 +125,19 @@ export default function App() {
 
           <SidebarBody>
             <SidebarSection>
-              <SidebarItem href="/" current={false}>
+              <SidebarItem href="/" current={pathname === '/'}>
                 <HomeIcon />
                 <SidebarLabel>Home</SidebarLabel>
               </SidebarItem>
-              <SidebarItem href="/events" current={true}>
+              <SidebarItem href="/events" current={pathname.startsWith('/events')}>
                 <Square2StackIcon />
                 <SidebarLabel>Events</SidebarLabel>
               </SidebarItem>
-              <SidebarItem href="/orders" current={false}>
+              <SidebarItem href="/orders" current={pathname.startsWith('/orders')}>
                 <TicketIcon />
                 <SidebarLabel>Orders</SidebarLabel>
               </SidebarItem>
-              <SidebarItem href="/settings" current={false}>
+              <SidebarItem href="/settings" current={pathname.startsWith('/settings')}>
                 <Cog6ToothIcon />
                 <SidebarLabel>Settings</SidebarLabel>
               </SidebarItem>
@@ -95,7 +145,6 @@ export default function App() {
 
             <SidebarSection className="max-lg:hidden">
               <SidebarHeading>Upcoming Events</SidebarHeading>
-
             </SidebarSection>
 
             <SidebarSpacer />
@@ -116,9 +165,11 @@ export default function App() {
             <Dropdown>
               <DropdownButton as={SidebarItem}>
                 <span className="flex min-w-0 items-center gap-3">
-                  <Avatar src="/users/erica.jpg" className="size-10" square alt="" />
+                  <Avatar src="https://picsum.photos/200" className="size-10" square alt="" />
                   <span className="min-w-0">
-                    <span className="block truncate text-sm/5 font-medium text-zinc-950 dark:text-white">Erica</span>
+                    <span className="block truncate text-sm/5 font-medium text-zinc-950 dark:text-white">
+                      Erica
+                    </span>
                     <span className="block truncate text-xs/5 font-normal text-zinc-500 dark:text-zinc-400">
                       erica@example.com
                     </span>
@@ -126,13 +177,12 @@ export default function App() {
                 </span>
                 <ChevronUpIcon />
               </DropdownButton>
+              <AccountDropdownMenu anchor="top start" />
             </Dropdown>
           </SidebarFooter>
         </Sidebar>
-      }
-    >
-      test
+      }>
+      {children}
     </SidebarLayout>
-  )
+  );
 }
-
