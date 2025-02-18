@@ -1,8 +1,6 @@
-import { Avatar } from "./components2/avatar"
-import { Dropdown, DropdownButton, DropdownDivider, DropdownItem, DropdownLabel, DropdownMenu } from "./components2/dropdown"
-import { Navbar, NavbarItem, NavbarSection, NavbarSpacer } from "./components2/navbar"
-import { Sidebar, SidebarBody, SidebarFooter, SidebarHeader, SidebarHeading, SidebarItem, SidebarLabel, SidebarSection, SidebarSpacer } from "./components2/sidebar"
-import { SidebarLayout } from "./components2/sidebar-layout"
+'use client'
+
+
 import {
   ArrowRightStartOnRectangleIcon,
   ChevronDownIcon,
@@ -21,25 +19,62 @@ import {
   Square2StackIcon,
   TicketIcon,
 } from '@heroicons/react/20/solid'
+import { Dropdown, DropdownButton, DropdownDivider, DropdownItem, DropdownLabel, DropdownMenu } from './components2/dropdown'
+import { SidebarLayout } from './components2/sidebar-layout'
+import { Navbar, NavbarItem, NavbarSection, NavbarSpacer } from './components2/navbar'
+import { Avatar } from './components2/avatar'
+import { Sidebar, SidebarBody, SidebarFooter, SidebarHeader, SidebarHeading, SidebarItem, SidebarLabel, SidebarSection, SidebarSpacer } from './components2/sidebar'
+import { Key, ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react'
 
 
+function AccountDropdownMenu({ anchor }: { anchor: 'top start' | 'bottom end' }) {
+  return (
+    <DropdownMenu className="min-w-64" anchor={anchor}>
+      <DropdownItem href="#">
+        <UserCircleIcon />
+        <DropdownLabel>My account</DropdownLabel>
+      </DropdownItem>
+      <DropdownDivider />
+      <DropdownItem href="#">
+        <ShieldCheckIcon />
+        <DropdownLabel>Privacy policy</DropdownLabel>
+      </DropdownItem>
+      <DropdownItem href="#">
+        <LightBulbIcon />
+        <DropdownLabel>Share feedback</DropdownLabel>
+      </DropdownItem>
+      <DropdownDivider />
+      <DropdownItem href="#">
+        <ArrowRightStartOnRectangleIcon />
+        <DropdownLabel>Sign out</DropdownLabel>
+      </DropdownItem>
+    </DropdownMenu>
+  )
+}
 
-export default function App() {
-
+export default function ApplicationLayout({
+  events,
+  children,
+}: {
+  events: Awaited<ReturnType<typeof getEvents>>
+  children: React.ReactNode
+}) {
+  let pathname = "/"
 
   return (
     <SidebarLayout
       navbar={
-                <Navbar>
-                  <NavbarSpacer />
-                  <NavbarSection>
-                    <Dropdown>
-                      <DropdownButton as={NavbarItem}>
-                        <Avatar src="/users/erica.jpg" square />
-                      </DropdownButton>
-                    </Dropdown>
-                  </NavbarSection>
-                </Navbar>
+        <Navbar>
+          <NavbarSpacer />
+          <NavbarSection>
+            <Dropdown>
+              <DropdownButton as={NavbarItem}>
+                <Avatar src="/users/erica.jpg" square />
+              </DropdownButton>
+              <AccountDropdownMenu anchor="bottom end" />
+            </Dropdown>
+          </NavbarSection>
+        </Navbar>
       }
       sidebar={
         <Sidebar>
@@ -75,19 +110,19 @@ export default function App() {
 
           <SidebarBody>
             <SidebarSection>
-              <SidebarItem href="/" current={false}>
+              <SidebarItem href="/" current={pathname === '/'}>
                 <HomeIcon />
                 <SidebarLabel>Home</SidebarLabel>
               </SidebarItem>
-              <SidebarItem href="/events" current={true}>
+              <SidebarItem href="/events" current={pathname.startsWith('/events')}>
                 <Square2StackIcon />
                 <SidebarLabel>Events</SidebarLabel>
               </SidebarItem>
-              <SidebarItem href="/orders" current={false}>
+              <SidebarItem href="/orders" current={pathname.startsWith('/orders')}>
                 <TicketIcon />
                 <SidebarLabel>Orders</SidebarLabel>
               </SidebarItem>
-              <SidebarItem href="/settings" current={false}>
+              <SidebarItem href="/settings" current={pathname.startsWith('/settings')}>
                 <Cog6ToothIcon />
                 <SidebarLabel>Settings</SidebarLabel>
               </SidebarItem>
@@ -126,13 +161,13 @@ export default function App() {
                 </span>
                 <ChevronUpIcon />
               </DropdownButton>
+              <AccountDropdownMenu anchor="top start" />
             </Dropdown>
           </SidebarFooter>
         </Sidebar>
       }
     >
-      test
+      {children}
     </SidebarLayout>
   )
 }
-
