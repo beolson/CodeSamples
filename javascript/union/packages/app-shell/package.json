@@ -1,0 +1,35 @@
+{
+  "name": "@h4h/app-shell",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattpocock/tt-package-demo.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "type": "module",
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.17.3",
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.6",
+    "@types/react": "19.0.10",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "peerDependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typelint": "tsc",
+    "ci": "pnpm run build && pnpm run check-format && pnpm run check-exports && pnpm run test",
+    "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
+    "test": "vitest run",
+    "dev": "vitest"
+  }
+}
