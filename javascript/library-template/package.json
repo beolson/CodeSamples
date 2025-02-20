@@ -20,7 +20,7 @@
   },
   "scripts": {
     "build": "tsup",
-    "typelint" : "tsc",
+    "typelint": "tsc",
     "ci": "pnpm run build && pnpm run check-format && pnpm run check-exports && pnpm run test",
     "format": "prettier --write .",
     "check-format": "prettier --check .",

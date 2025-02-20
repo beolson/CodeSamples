@@ -1,6 +1,9 @@
-
 - [ ] Support React
 - [ ] Support Tailwind
 - [ ] ESLint
 - [ ] AutoFormat on save
 - [ ] Storybook
+- [ ] Watch mode on dev
+- [ ] Watch mode on test
+- [ ] Coverage Report
+- [ ] Visual UI tests - puppeteer
