@@ -1,0 +1,29 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@changesets/cli": "^2.28.0",
+    "@eslint/js": "^9.20.0",
+    "@types/react": "^19.0.10",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-testing-library": "^7.1.1",
+    "globals": "^15.15.0",
+    "npm-check-updates": "^17.1.14",
+    "prettier": "^3.5.1",
+    "turbo": "^2.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
+  }
+}
