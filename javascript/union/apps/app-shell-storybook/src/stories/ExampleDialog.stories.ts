@@ -1,19 +1,18 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { expect, userEvent, within } from '@storybook/test';
 
-import { MyButton } from '@h4h/app-shell';
+import { ExampleDialog } from '@h4h/app-shell';
 
 const meta = {
-  component: MyButton,
-} satisfies Meta<typeof MyButton>;
+  component: ExampleDialog,
+  parameters: { layout: 'fullscreen' },
+} satisfies Meta<typeof ExampleDialog>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Example = {
-  args: {
-    label: 'Button',
-  },
+  args: {},
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);
     await userEvent.click(canvas.getByTestId('count-button'));
