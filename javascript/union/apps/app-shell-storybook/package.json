@@ -25,7 +25,7 @@
     "@h4h/app-shell": "workspace:*"
   },
   "scripts": {
-    "storybook": "storybook dev -p 6006",
+    "dev": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   }
 }

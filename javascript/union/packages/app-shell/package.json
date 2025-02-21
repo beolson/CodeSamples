@@ -30,6 +30,7 @@
     "ci": "pnpm run build && pnpm run check-format && pnpm run check-exports && pnpm run test",
     "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
     "test": "vitest run",
-    "dev": "vitest"
+    "dev2": "vitest",
+    "dev" : "tsup --watch"
   }
 }
