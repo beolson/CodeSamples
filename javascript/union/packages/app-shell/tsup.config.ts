@@ -8,4 +8,7 @@ export default defineConfig({
   bundle: true,
   outDir: 'dist',
   clean: true,
+  onSuccess: async () => {
+    //console.log('Building CSS');
+  },
 });
