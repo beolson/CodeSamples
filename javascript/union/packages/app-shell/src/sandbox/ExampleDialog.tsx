@@ -2,32 +2,12 @@ import React, { useState } from 'react'
 import { Dialog, DialogBackdrop, DialogPanel, TransitionChild } from '@headlessui/react'
 import {
     Bars3Icon,
-    CalendarIcon,
-    ChartPieIcon,
-    DocumentDuplicateIcon,
-    FolderIcon,
-    HomeIcon,
-    UsersIcon,
+
     XMarkIcon,
 } from '@heroicons/react/24/outline'
+import { useTailwindMediaQuery } from '../hooks/useTailwindMediaQuery.js';
+import { IfTrue } from '../utility/IfTrue.jsx';
 
-const navigation = [
-    { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },
-    { name: 'Team', href: '#', icon: UsersIcon, current: false },
-    { name: 'Projects', href: '#', icon: FolderIcon, current: false },
-    { name: 'Calendar', href: '#', icon: CalendarIcon, current: false },
-    { name: 'Documents', href: '#', icon: DocumentDuplicateIcon, current: false },
-    { name: 'Reports', href: '#', icon: ChartPieIcon, current: false },
-]
-const teams = [
-    { id: 1, name: 'Heroicons', href: '#', initial: 'H', current: false },
-    { id: 2, name: 'Tailwind Labs', href: '#', initial: 'T', current: false },
-    { id: 3, name: 'Workcation', href: '#', initial: 'W', current: false },
-]
-
-function classNames(...classes: Array<string>) {
-    return classes.filter(Boolean).join(' ')
-}
 
 const Lines = (props: { count: number }) => {
     return (
@@ -41,6 +21,7 @@ const Lines = (props: { count: number }) => {
 
 export function ExampleDialog() {
     const [sidebarOpen, setSidebarOpen] = useState(false)
+    const screenSize = useTailwindMediaQuery();
 
     return (
         <>
@@ -53,6 +34,7 @@ export function ExampleDialog() {
         ```
       */}
             <div>
+                <IfTrue expression={screenSize !== 'lg'} >
                 <Dialog open={sidebarOpen} onClose={setSidebarOpen} className="relative z-50 lg:hidden">
                     <DialogBackdrop
                         transition
@@ -81,14 +63,15 @@ export function ExampleDialog() {
                                         className="h-8 w-auto"
                                     />
                                 </div>
-                                <nav className="flex flex-1 flex-col">
+                                <nav className="flex flex-1 flex-col overflow-y-auto">
                                     <Lines count={100} />
                                 </nav>
+                                <div>Nav Foot</div>
                             </div>
                         </DialogPanel>
                     </div>
                 </Dialog>
-
+                </IfTrue>
                 {/* Static sidebar for desktop */}
                 <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
                     {/* Sidebar component, swap this element with another sidebar if you like */}
