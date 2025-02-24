@@ -6,7 +6,7 @@ export default defineConfig({
   format: ['esm'],
   dts: true,
   bundle: true,
-  outDir: 'dist',
+  outDir: 'lib',
   clean: true,
   onSuccess: async () => {
     //console.log('Building CSS');
