@@ -24,3 +24,5 @@ dist-ssr
 
 node_modules
 *storybook.log
+
+.turbo/

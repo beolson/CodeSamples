@@ -13,7 +13,7 @@ const Lines = (props: { count: number }) => {
     return (
         <>
             {[...Array(props.count)].map((_, i) => (
-                <div className={` pl-1 text-base hover:text-neutral-400 text-green-500`}>Linez {i + 100}</div>
+                <div className={` pl-1 text-base hover:text-neutral-400 text-orange-500`}>Linez {i + 100}</div>
             ))}
         </>
     );
