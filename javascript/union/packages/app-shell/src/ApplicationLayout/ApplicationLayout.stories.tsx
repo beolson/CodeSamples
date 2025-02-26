@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { expect, userEvent, within } from '@storybook/test';
 
-import { ExampleDialog } from '@h4h/app-shell';
+import { ApplicationLayout } from './index.jsx';
 
 const meta = {
-  component: ExampleDialog,
+  component: ApplicationLayout,
   parameters: { layout: 'fullscreen' },
-} satisfies Meta<typeof ExampleDialog>;
+} satisfies Meta<typeof ApplicationLayout>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;

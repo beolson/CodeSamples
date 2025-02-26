@@ -9,17 +9,7 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
-    // layout: 'fullscreen',
   },
-
-  // decorators: [
-  //   (Story) => (
-  //     <div style={{ margin: '0' }}>
-  //       {/* 👇 Decorators in Storybook also accept a function. Replace <Story/> with Story() to enable it  */}
-  //       <Story />
-  //     </div>
-  //   ),
-  // ],
 };
 
 export default preview;

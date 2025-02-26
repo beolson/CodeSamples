@@ -1,21 +1,23 @@
-import eslint from '@eslint/js';
-import tseslint from 'typescript-eslint';
-import pluginReact from 'eslint-plugin-react';
+import eslintJs from "@eslint/js";
+import eslintReact from "@eslint-react/eslint-plugin";
+import tseslint from "typescript-eslint";
 
-const config = tseslint.config(
-  {
-    settings: { react: { version: '18.3' } },
-  },
-  eslint.configs.recommended,
-  ...tseslint.configs.recommended,
-  {
-    ...pluginReact.configs.flat.recommended,
-    rules: {
-      ...pluginReact.configs.flat.recommended.rules,
-      'react/react-in-jsx-scope': 'off',
+export default tseslint.config({
+  files: ["**/src/**/*.ts", "**/src/**/*.tsx"],
+  ignores: ["**/.storybook/**", "**/dist/**/*.mjs"],
+  extends: [
+    eslintJs.configs.recommended,
+    tseslint.configs.recommended,
+    eslintReact.configs.recommended,
+  ],
+  languageOptions: {
+    parser: tseslint.parser,
+    parserOptions: {
+      projectService: true,
     },
-    files: ['**/src/**/*.ts', '**/src/**/*.tsx'],
   },
-);
-
-export default config;
+  rules: {
+    // Put rules you want to override here
+    "@eslint-react/prefer-shorthand-boolean": "warn",
+  },
+});
