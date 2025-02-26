@@ -4,23 +4,23 @@ import { expect, userEvent, within } from '@storybook/test';
 import { ApplicationLayout } from '@h4h/app-shell';
 
 const meta = {
-    component: ApplicationLayout,
-    parameters: { layout: 'fullscreen' },
+  component: ApplicationLayout,
+  parameters: { layout: 'fullscreen' },
 } satisfies Meta<typeof ApplicationLayout>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Example = {
-    args: {},
-    play: async ({ canvasElement }) => {
-        const canvas = within(canvasElement);
-        await userEvent.click(canvas.getByTestId('count-button'));
-        await userEvent.click(canvas.getByTestId('count-button'));
-        await userEvent.click(canvas.getByTestId('count-button'));
+  args: {},
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    await userEvent.click(canvas.getByTestId('count-button'));
+    await userEvent.click(canvas.getByTestId('count-button'));
+    await userEvent.click(canvas.getByTestId('count-button'));
 
-        await expect(canvas.getByText('Count 3 Button')).toBeInTheDocument();
-    },
+    await expect(canvas.getByText('Count 3 Button')).toBeInTheDocument();
+  },
 } satisfies Story;
 
 // const meta: Meta<typeof MyButton> = {

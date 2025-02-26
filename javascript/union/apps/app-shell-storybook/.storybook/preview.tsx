@@ -20,7 +20,6 @@ const preview: Preview = {
   //     </div>
   //   ),
   // ],
-
 };
 
 export default preview;

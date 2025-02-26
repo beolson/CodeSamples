@@ -7,7 +7,8 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "dev": "turbo dev",
-    "lint": "eslint --max-warnings 0"
+    "lint": "eslint --max-warnings 0",
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "prettier": "^3.5.1",
     "turbo": "^2.4.2",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.24.1"
+    "typescript-eslint": "^8.24.1",
+    "onchange": "7.1.0"
   }
 }

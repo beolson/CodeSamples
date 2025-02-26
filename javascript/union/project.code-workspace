@@ -1,70 +1,48 @@
 {
-    "folders": [
-        {
-            "path": "apps/app-shell-storybook",
-            "name": "",
-            "settings": {
-                "editor.defaultFormatter": "esbenp.prettier-vscode",
-                "editor.formatOnSave": true,
-                "prettier.documentSelectors": [
-                    "**/src/**/**.{ts,tsx}"
-                ],
-                "[typescript]": {
-                    "editor.defaultFormatter": "esbenp.prettier-vscode",
-                    "editor.formatOnSave": true
-                }
-            }
-        },
-        {
-            "path": "packages/app-shell",
-            "settings": {
-                "editor.defaultFormatter": "esbenp.prettier-vscode",
-                "editor.formatOnSave": true,
-                "prettier.documentSelectors": [
-                    "**/src/**/**.{ts,tsx}"
-                ],
-                "[typescript]": {
-                    "editor.defaultFormatter": "esbenp.prettier-vscode",
-                    "editor.formatOnSave": true
-                }
-            }
-        },
-    ],
-    "settings": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true,
-        "prettier.documentSelectors": [
-            "**/src/**/**.{ts,tsx}"
-        ],
-        "[typescript]": {
-            "editor.defaultFormatter": "esbenp.prettier-vscode",
-            "editor.formatOnSave": true
-        }
+  "folders": [
+    {
+      "path": "apps/app-shell-storybook",
+      "name": "",
     },
-    // "settings": {
-    //     "files.exclude": {
-    //         "**/.git": true,
-    //         "**/.svn": true,
-    //         "**/.hg": true,
-    //         "**/CVS": true,
-    //         "**/.DS_Store": true,
-    //         "**/.turbo": true,
-    //         "**/dist": true,
-    //         "**/node_modules": true,
-    //         "**/playwright-report": true
-    //     },
-    //     "typescript.tsdk": "node_modules/typescript/lib",
-    //     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    //     "editor.formatOnSave": true,
-    //     "[javascript]": {
-    //         "editor.defaultFormatter": "esbenp.prettier-vscode",
-    //         "editor.formatOnSave": true
-    //     },
-    //     "prettier.prettierPath": "./node_modules/prettier",
-    //     "prettier.configPath": "./.prettierrc",
-    //     "[typescript]": {
-    //         "editor.defaultFormatter": "esbenp.prettier-vscode",
-    //         "editor.formatOnSave": true
-    //     }
-    // }
+    {
+      "path": "packages/app-shell",
+    },
+  ],
+  // "settings": {
+  //     "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //     "editor.formatOnSave": true,
+  //     "prettier.documentSelectors": [
+  //         "**/src/**/**.{ts,tsx}"
+  //     ],
+  //     "[typescript]": {
+  //         "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //         "editor.formatOnSave": true
+  //     }
+  // },
+  // "settings": {
+  //     "files.exclude": {
+  //         "**/.git": true,
+  //         "**/.svn": true,
+  //         "**/.hg": true,
+  //         "**/CVS": true,
+  //         "**/.DS_Store": true,
+  //         "**/.turbo": true,
+  //         "**/dist": true,
+  //         "**/node_modules": true,
+  //         "**/playwright-report": true
+  //     },
+  //     "typescript.tsdk": "node_modules/typescript/lib",
+  //     "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //     "editor.formatOnSave": true,
+  //     "[javascript]": {
+  //         "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //         "editor.formatOnSave": true
+  //     },
+  //     "prettier.prettierPath": "./node_modules/prettier",
+  //     "prettier.configPath": "./.prettierrc",
+  //     "[typescript]": {
+  //         "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //         "editor.formatOnSave": true
+  //     }
+  // }
 }

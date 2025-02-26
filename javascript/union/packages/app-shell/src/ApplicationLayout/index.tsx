@@ -1,1 +1,1 @@
-export { ApplicationLayout } from "./ApplicationLayout.jsx"
+export { ApplicationLayout } from './ApplicationLayout.jsx';
