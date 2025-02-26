@@ -8,7 +8,6 @@
   "packageManager": "pnpm@10.4.1",
   "type": "module",
   "devDependencies": {
-    "@chromatic-com/storybook": "^3.2.4",
     "@storybook/addon-essentials": "^8.5.8",
     "@storybook/addon-interactions": "^8.5.8",
     "@storybook/addon-onboarding": "^8.5.8",
@@ -20,8 +19,8 @@
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "storybook": "^8.5.8",
-    "vitest": "^3.0.6",
-    "vite": "6.1.1"
+    "vite": "6.1.1",
+    "vitest": "^3.0.6"
   },
   "dependencies": {
     "@h4h/app-shell": "workspace:*"

@@ -50,9 +50,6 @@ importers:
         specifier: workspace:*
         version: link:../../packages/app-shell
     devDependencies:
-      '@chromatic-com/storybook':
-        specifier: ^3.2.4
-        version: 3.2.4(react@19.0.0)(storybook@8.5.8(prettier@3.5.1))
       '@storybook/addon-essentials':
         specifier: ^8.5.8
         version: 8.5.8(@types/react@19.0.10)(storybook@8.5.8(prettier@3.5.1))
@@ -465,15 +462,6 @@ packages:
       {
         integrity: sha512-w/63nURdkRPpg3AXbNr7lPv6HgOuVDyefTumiXsbXxtIwcuk5EXayWR5OpSwDjsQPgaYsfUSedMduaNOjAYY8A==,
       }
-
-  '@chromatic-com/storybook@3.2.4':
-    resolution:
-      {
-        integrity: sha512-5/bOOYxfwZ2BktXeqcCpOVAoR6UCoeART5t9FVy22hoo8F291zOuX4y3SDgm10B1GVU/ZTtJWPT2X9wZFlxYLg==,
-      }
-    engines: { node: '>=16.0.0', yarn: '>=1.22.18' }
-    peerDependencies:
-      storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
 
   '@colors/colors@1.5.0':
     resolution:
@@ -2922,21 +2910,6 @@ packages:
       }
     engines: { node: '>= 14.16.0' }
 
-  chromatic@11.25.2:
-    resolution:
-      {
-        integrity: sha512-/9eQWn6BU1iFsop86t8Au21IksTRxwXAl7if8YHD05L2AbuMjClLWZo5cZojqrJHGKDhTqfrC2X2xE4uSm0iKw==,
-      }
-    hasBin: true
-    peerDependencies:
-      '@chromatic-com/cypress': ^0.*.* || ^1.0.0
-      '@chromatic-com/playwright': ^0.*.* || ^1.0.0
-    peerDependenciesMeta:
-      '@chromatic-com/cypress':
-        optional: true
-      '@chromatic-com/playwright':
-        optional: true
-
   ci-info@3.9.0:
     resolution:
       {
@@ -3776,13 +3749,6 @@ packages:
         integrity: sha512-XXTUwCvisa5oacNGRP9SfNtYBNAMi+RPwBFmblZEF7N7swHYQS6/Zfk7SRwx4D5j3CH211YNRco1DEMNVfZCnQ==,
       }
     engines: { node: '>=16.0.0' }
-
-  filesize@10.1.6:
-    resolution:
-      {
-        integrity: sha512-sJslQKU2uM33qH5nqewAwVB2QgR6w1aMNsYUp3aN5rMRyXEwJGmZvaWzeJFNTOXWlHQyBFCWrdj3fV/fsTOX8w==,
-      }
-    engines: { node: '>= 10.4.0' }
 
   fill-range@7.1.1:
     resolution:
@@ -5903,15 +5869,6 @@ packages:
         integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==,
       }
 
-  react-confetti@6.2.2:
-    resolution:
-      {
-        integrity: sha512-K+kTyOPgX+ZujMZ+Rmb7pZdHBvg+DzinG/w4Eh52WOB8/pfO38efnnrtEZNJmjTvLxc16RBYO+tPM68Fg8viBA==,
-      }
-    engines: { node: '>=16' }
-    peerDependencies:
-      react: ^16.3.0 || ^17.0.1 || ^18.0.0 || ^19.0.0
-
   react-docgen-typescript@2.2.2:
     resolution:
       {
@@ -6782,12 +6739,6 @@ packages:
       }
     hasBin: true
 
-  tween-functions@1.2.0:
-    resolution:
-      {
-        integrity: sha512-PZBtLYcCLtEcjL14Fzb1gSxPBeL7nWvGhO5ZFPGqziCcr8uvHp0NDmdjBchp6KHL+tExcg0m3NISmKxhU394dA==,
-      }
-
   type-check@0.4.0:
     resolution:
       {
@@ -7528,19 +7479,6 @@ snapshots:
   '@blakeembrey/deque@1.0.5': {}
 
   '@blakeembrey/template@1.2.0': {}
-
-  '@chromatic-com/storybook@3.2.4(react@19.0.0)(storybook@8.5.8(prettier@3.5.1))':
-    dependencies:
-      chromatic: 11.25.2
-      filesize: 10.1.6
-      jsonfile: 6.1.0
-      react-confetti: 6.2.2(react@19.0.0)
-      storybook: 8.5.8(prettier@3.5.1)
-      strip-ansi: 7.1.0
-    transitivePeerDependencies:
-      - '@chromatic-com/cypress'
-      - '@chromatic-com/playwright'
-      - react
 
   '@colors/colors@1.5.0':
     optional: true
@@ -9167,8 +9105,6 @@ snapshots:
     dependencies:
       readdirp: 4.1.2
 
-  chromatic@11.25.2: {}
-
   ci-info@3.9.0: {}
 
   cjs-module-lexer@1.4.3: {}
@@ -9739,8 +9675,6 @@ snapshots:
   file-entry-cache@8.0.0:
     dependencies:
       flat-cache: 4.0.1
-
-  filesize@10.1.6: {}
 
   fill-range@7.1.1:
     dependencies:
@@ -11168,11 +11102,6 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-confetti@6.2.2(react@19.0.0):
-    dependencies:
-      react: 19.0.0
-      tween-functions: 1.2.0
-
   react-docgen-typescript@2.2.2(typescript@5.7.3):
     dependencies:
       typescript: 5.7.3
@@ -11735,8 +11664,6 @@ snapshots:
       turbo-linux-arm64: 2.4.2
       turbo-windows-64: 2.4.2
       turbo-windows-arm64: 2.4.2
-
-  tween-functions@1.2.0: {}
 
   type-check@0.4.0:
     dependencies:
