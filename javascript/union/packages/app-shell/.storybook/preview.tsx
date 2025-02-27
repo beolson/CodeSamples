@@ -1,5 +1,5 @@
 import type { Preview } from '@storybook/react';
-import '@h4h/app-shell/app-shell.css';
+import '../src/app-shell.css';
 import React from 'react';
 const preview: Preview = {
   parameters: {
