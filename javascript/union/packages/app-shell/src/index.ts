@@ -1,4 +1,4 @@
-export { add } from './utils.js';
+export { add } from './utils.test.js';
 export { MyButton } from './MyButton.js';
 export { ExampleDialog } from './sandbox/ExampleDialog.js';
 export { ExampleDialogTwo } from './sandbox/ExampleDialogTwo.js';
