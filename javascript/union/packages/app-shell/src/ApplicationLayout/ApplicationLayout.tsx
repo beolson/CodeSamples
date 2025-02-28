@@ -54,7 +54,9 @@ export function ApplicationLayout() {
 
         {/* Static sidebar for desktop */}
         <div
-          className={`hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col transition-all  duration-500 ${sidebarOpenDesktop ? 'lg:inset-x-0' : 'lg:-inset-x-72'} `}
+          className={`hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 
+                      lg:flex-col transition-all  duration-500 
+                      ${sidebarOpenDesktop ? 'lg:inset-x-0' : 'lg:-inset-x-72'} `}
         >
           {/* Sidebar component, swap this element with another sidebar if you like */}
           <SideBarPlaceholder />
@@ -63,7 +65,12 @@ export function ApplicationLayout() {
         <div
           className={`transition-all  duration-500 ${sidebarOpenDesktop ? 'lg:pl-72' : 'lg:pl-0'} `}
         >
-          <TopNavPlaceholder setSidebarOpen={setSidebarOpenMobile} />
+          <TopNavPlaceholder
+            setSidebarOpenMobile={setSidebarOpenMobile}
+            setSidebarOpenDesktop={setSidebarOpenDesktop}
+            sidebarOpenDesktop={sidebarOpenDesktop}
+            sidebarOpenMobile={sidebarOpenMobile}
+          />
 
           <main className="py-10">
             <div className="px-4 sm:px-6 lg:px-8">

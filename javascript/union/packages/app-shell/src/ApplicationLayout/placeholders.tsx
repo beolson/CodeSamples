@@ -2,10 +2,13 @@ import { Menu, MenuButton, MenuItems } from '@headlessui/react';
 import {
   Bars3Icon,
   BellIcon,
+  ChevronDoubleLeftIcon,
+  ChevronDoubleRightIcon,
   ChevronDownIcon,
   MagnifyingGlassIcon,
 } from '@heroicons/react/24/outline';
 import React from 'react';
+import { IfTrue } from '../utility/IfTrue.jsx';
 const Lines = (props: { count: number }) => {
   return (
     <>
@@ -58,18 +61,42 @@ export const SideBarPlaceholder = () => {
 };
 
 export const TopNavPlaceholder = (props: {
-  setSidebarOpen: (state: boolean) => void;
+  setSidebarOpenMobile: (state: boolean) => void;
+  setSidebarOpenDesktop: (state: boolean) => void;
+  sidebarOpenDesktop: boolean;
+  sidebarOpenMobile: boolean;
 }) => {
   return (
     <div className="sticky top-0 z-40 flex h-12 shrink-0 items-center gap-x-4 border-b border-gray-200 bg-white px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8">
       <button
         type="button"
-        onClick={() => props.setSidebarOpen(true)}
+        onClick={() => props.setSidebarOpenMobile(true)}
         className="-m-2.5 p-2.5 text-gray-700 lg:hidden"
       >
         <span className="sr-only">Open sidebar</span>
         <Bars3Icon aria-hidden="true" className="size-6" />
       </button>
+
+      <IfTrue expression={props.sidebarOpenDesktop}>
+        <button
+          type="button"
+          onClick={() => props.setSidebarOpenDesktop(false)}
+          className="hidden -m-2.5 p-2.5 text-gray-700 lg:block"
+        >
+          <span className="sr-only">Open sidebar</span>
+          <ChevronDoubleLeftIcon aria-hidden="true" className="size-6" />
+        </button>
+      </IfTrue>
+      <IfTrue expression={!props.sidebarOpenDesktop}>
+        <button
+          type="button"
+          onClick={() => props.setSidebarOpenDesktop(true)}
+          className="hidden -m-2.5 p-2.5 text-gray-700 lg:block"
+        >
+          <span className="sr-only">Open sidebar</span>
+          <ChevronDoubleRightIcon aria-hidden="true" className="size-6" />
+        </button>
+      </IfTrue>
 
       {/* Separator */}
       <div aria-hidden="true" className="h-6 w-px bg-gray-200 lg:hidden" />
