@@ -7,8 +7,8 @@ import {
   TransitionChild,
 } from '@headlessui/react';
 import { XMarkIcon } from '@heroicons/react/24/outline';
-import { SideBarPlaceholder, TopNavPlaceholder } from './placeholders.jsx';
-import { Button } from '@/components/ui/button.jsx';
+import { SideBarPlaceholder, TopNavPlaceholder } from './placeholders';
+
 
 export function ApplicationLayout() {
   const [sidebarOpenDesktop, setSidebarOpenDesktop] = useState(false);
@@ -81,7 +81,7 @@ export function ApplicationLayout() {
                 value="Toggle Sidebar"
                 onClick={() => setSidebarOpenDesktop((cur) => !cur)}
               />
-              {/* Your content */}<Button variant="outline">Click me</Button>
+              {/* Your content */}
             </div>
           </main>
         </div>

@@ -15,7 +15,9 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     /* If transpiling with TypeScript: */
-    "module": "NodeNext",
+    // "module": "NodeNext",
+    "module": "preserve",
+    "noEmit": true,
     "outDir": "dist",
     "rootDir": "src",
     "sourceMap": true,
@@ -25,8 +27,10 @@
     "declarationMap": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["./src/*"],
+      "*": ["*", "*.js", "*.jsx"]
+    },
+    "lib": ["es2022", "dom", "dom.iterable"]
   
   },
   "include": ["src"]
