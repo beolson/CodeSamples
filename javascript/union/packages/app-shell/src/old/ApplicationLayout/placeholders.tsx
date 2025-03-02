@@ -8,7 +8,7 @@ import {
   MagnifyingGlassIcon,
 } from '@heroicons/react/24/outline';
 import React from 'react';
-import { IfTrue } from '../utility/IfTrue.jsx';
+import { IfTrue } from '../../utility/IfTrue.jsx';
 const Lines = (props: { count: number }) => {
   return (
     <>
