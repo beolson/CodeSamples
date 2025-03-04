@@ -1,0 +1,4601 @@
+{
+  "directoryName": "docs",
+  "files": [],
+  "subDirectories": [
+    {
+      "directoryName": "Operating Procedures",
+      "files": [
+        {
+          "fileName": "Secure_Development.md",
+          "displayName": "Technology Operating Procedure - Secure Development",
+          "tags": ["operating procedures", "Secure Development"]
+        }
+      ],
+      "subDirectories": []
+    },
+    {
+      "directoryName": "ai",
+      "files": [
+        {
+          "fileName": "config.json",
+          "displayName": "config"
+        },
+        {
+          "fileName": "index.md",
+          "displayName": "Artificial Intelligence",
+          "tags": [
+            "AI",
+            "OCR",
+            "Form Recognizer",
+            "Document Processing",
+            "Document Intelligence",
+            "Model Training"
+          ]
+        }
+      ],
+      "subDirectories": [
+        {
+          "directoryName": "Configuration",
+          "files": [
+            {
+              "fileName": "Configuration.md",
+              "displayName": "Configuration",
+              "tags": ["Python", "Jupyter Notebook", "env", ".venv"]
+            }
+          ],
+          "subDirectories": []
+        },
+        {
+          "directoryName": "DevOps",
+          "files": [
+            {
+              "fileName": "AzureDocumentIntelligenceSolutions.md",
+              "displayName": "Document Parsing Solutions",
+              "tags": [
+                "Azure",
+                "Document Intelligence",
+                "OCR",
+                "Document Parsing",
+                "Gen AI",
+                "IAC"
+              ]
+            }
+          ],
+          "subDirectories": []
+        },
+        {
+          "directoryName": "Development",
+          "files": [],
+          "subDirectories": [
+            {
+              "directoryName": "CSharp",
+              "files": [
+                {
+                  "fileName": "DocumentIntelligence.md",
+                  "displayName": "Azure Document Intelligence",
+                  "tags": [
+                    ".NET Core",
+                    "OCR",
+                    "Form Recognizer",
+                    "Document Processing",
+                    "Document Intelligence"
+                  ]
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Python",
+              "files": [
+                {
+                  "fileName": "DocumentIntelligence.md",
+                  "displayName": "Azure Document Intelligence",
+                  "tags": [
+                    "Python",
+                    "OCR",
+                    "Form Recognizer",
+                    "Document Processing",
+                    "Document Intelligence"
+                  ]
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "Patterns",
+          "files": [
+            {
+              "fileName": "ActivityCaptureWithGenAIModels.md",
+              "displayName": "Actvity Capture and Rentention For Gen AI Models",
+              "tags": [
+                ".NET Core",
+                "Python",
+                "Gen AI",
+                "Actvity Capture and Rentention For Gen AI Models"
+              ]
+            },
+            {
+              "fileName": "AzureOpenAIAuth.md",
+              "displayName": "Azure Open AI Authentication",
+              "tags": [".NET Core", "Python", "Azure Open AI Authentication"]
+            },
+            {
+              "fileName": "DocumentProcessing.md",
+              "displayName": "Document Processing",
+              "tags": [
+                ".NET Core",
+                "Python",
+                "OCR",
+                "Form Recognizer",
+                "Document Intelligence"
+              ]
+            }
+          ],
+          "subDirectories": []
+        },
+        {
+          "directoryName": "Testing",
+          "files": [
+            {
+              "fileName": "Testing.md",
+              "displayName": "Testing",
+              "tags": [".NET Core", "Unit Testing", "Mocking"]
+            }
+          ],
+          "subDirectories": []
+        },
+        {
+          "directoryName": "Training",
+          "files": [
+            {
+              "fileName": "AzureModelTraining.md",
+              "displayName": "Azure Custom Model Training",
+              "tags": [
+                "Document Intelligence",
+                "Custom Template Model",
+                "Custom Neural Model",
+                "Azure Form Recognizer"
+              ]
+            },
+            {
+              "fileName": "DocumentIntelligence.md",
+              "displayName": "Training Using Azure Document Intelligence Studio",
+              "tags": [
+                "Document Intelligence",
+                "Custom Template Model",
+                "Custom Neural Model",
+                "Azure Form Recognizer",
+                "Model Training"
+              ]
+            }
+          ],
+          "subDirectories": []
+        }
+      ]
+    },
+    {
+      "directoryName": "architecture",
+      "files": [
+        {
+          "fileName": "ApprovalCategories.md",
+          "displayName": "Approval Categories",
+          "tags": ["Technology Approval", "Approval Categories"]
+        },
+        {
+          "fileName": "TechnologyRadar.md",
+          "displayName": "Technology Radar",
+          "tags": ["Technology Radar"]
+        },
+        {
+          "fileName": "config.json",
+          "displayName": "config"
+        },
+        {
+          "fileName": "index.md",
+          "displayName": "Architecture",
+          "tags": ["Architecture"]
+        }
+      ],
+      "subDirectories": [
+        {
+          "directoryName": "Architecture Patterns",
+          "files": [
+            {
+              "fileName": "index.md",
+              "displayName": "Patterns",
+              "tags": ["Patterns"]
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Application",
+              "files": [
+                {
+                  "fileName": "Custom_Cloud_DotNet_Authentication.md",
+                  "displayName": "Custom Cloud .Net Authentication",
+                  "tags": ["Patterns", "CustomDev", "Azure"]
+                },
+                {
+                  "fileName": "Custom_Cloud_DotNet_Authorization.md",
+                  "displayName": "Custom Cloud .Net Authorization",
+                  "tags": ["Patterns", "CustomDev", "Azure"]
+                },
+                {
+                  "fileName": "Custom_Cloud_Web_App_and_Web_API.md",
+                  "displayName": "Custom Cloud Web App .Net",
+                  "tags": ["Patterns", "CustomDev", "Azure"]
+                },
+                {
+                  "fileName": "Custom_On_Premise_Desktop_App.md",
+                  "displayName": "Custom On Prem Desktop App",
+                  "tags": ["Patterns", "CustomDev", "OnPrem"]
+                },
+                {
+                  "fileName": "Custom_On_Premise_Web_App.md",
+                  "displayName": "Custom On Prem Web App",
+                  "tags": ["Patterns", "CustomDev", "OnPrem"]
+                },
+                {
+                  "fileName": "SaaS_App.md",
+                  "displayName": "SaaS App",
+                  "tags": ["Patterns", "Commercial", "SaaS"]
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "Backend",
+                  "files": [],
+                  "subDirectories": [
+                    {
+                      "directoryName": "DotNet",
+                      "files": [
+                        {
+                          "fileName": "Data Access.md",
+                          "displayName": "Data Access",
+                          "tags": [
+                            "Patterns",
+                            "Azure",
+                            "Data",
+                            "Data Acccess",
+                            "Repositories"
+                          ]
+                        },
+                        {
+                          "fileName": "DotNet.md",
+                          "displayName": ".NET Software Architecture",
+                          "tags": ["Patterns", "Azure"]
+                        }
+                      ],
+                      "subDirectories": [
+                        {
+                          "directoryName": "images",
+                          "files": [
+                            {
+                              "fileName": "EntityFramework.svg",
+                              "displayName": "EntityFramework"
+                            },
+                            {
+                              "fileName": "IDesign.svg",
+                              "displayName": "IDesign"
+                            }
+                          ],
+                          "subDirectories": []
+                        }
+                      ]
+                    },
+                    {
+                      "directoryName": "Python",
+                      "files": [
+                        {
+                          "fileName": ".gitkeep",
+                          "displayName": ".gitkeep"
+                        }
+                      ],
+                      "subDirectories": []
+                    }
+                  ]
+                },
+                {
+                  "directoryName": "Browser Applications",
+                  "files": [
+                    {
+                      "fileName": ".gitkeep",
+                      "displayName": ".gitkeep"
+                    }
+                  ],
+                  "subDirectories": [
+                    {
+                      "directoryName": "Angular",
+                      "files": [
+                        {
+                          "fileName": ".gitkeep",
+                          "displayName": ".gitkeep"
+                        }
+                      ],
+                      "subDirectories": []
+                    },
+                    {
+                      "directoryName": "Common",
+                      "files": [
+                        {
+                          "fileName": ".gitkeep",
+                          "displayName": ".gitkeep"
+                        },
+                        {
+                          "fileName": "Browser_Application_Configuration.md",
+                          "displayName": "Browser Application Configuration",
+                          "tags": ["Patterns", "Browser"]
+                        },
+                        {
+                          "fileName": "Browser_Application_Configuration.svg",
+                          "displayName": "Browser_Application_Configuration"
+                        }
+                      ],
+                      "subDirectories": []
+                    },
+                    {
+                      "directoryName": "React",
+                      "files": [
+                        {
+                          "fileName": ".gitkeep",
+                          "displayName": ".gitkeep"
+                        }
+                      ],
+                      "subDirectories": []
+                    }
+                  ]
+                },
+                {
+                  "directoryName": "Common",
+                  "files": [
+                    {
+                      "fileName": ".gitkeep",
+                      "displayName": ".gitkeep"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "Data",
+              "files": [],
+              "subDirectories": [
+                {
+                  "directoryName": "Archive",
+                  "files": [
+                    {
+                      "fileName": "Data_Lake_Archive.md",
+                      "displayName": "Data Lake Archive",
+                      "tags": ["Patterns", "Data", "Archiving"]
+                    },
+                    {
+                      "fileName": "Data_Warehouse_Archive.md",
+                      "displayName": "Data Warehouse Archive",
+                      "tags": ["Patterns", "Data", "Archiving"]
+                    },
+                    {
+                      "fileName": "Walled_Graveyard.md",
+                      "displayName": "Walled Graveyard",
+                      "tags": ["Patterns", "Data", "Archiving"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Ingestion",
+                  "files": [
+                    {
+                      "fileName": "Data_Ingestion.md",
+                      "displayName": "Data Ingestion",
+                      "tags": ["Patterns", "Data", "Ingestion"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Management",
+                  "files": [
+                    {
+                      "fileName": "Business_Glossary.md",
+                      "displayName": "Business Glossary",
+                      "tags": ["Patterns", "Data", "Management"]
+                    },
+                    {
+                      "fileName": "Data_Catalog_and_Lineage.md",
+                      "displayName": "Data Catalog and Lineage",
+                      "tags": ["Patterns", "Data", "Management"]
+                    },
+                    {
+                      "fileName": "Data_Quality.md",
+                      "displayName": "Data Quality",
+                      "tags": ["Patterns", "Data", "Management"]
+                    },
+                    {
+                      "fileName": "Metadata_Management.md",
+                      "displayName": "Metadata Management",
+                      "tags": ["Patterns", "Data", "Management"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Reporting and Analytics",
+                  "files": [
+                    {
+                      "fileName": "Analytics_Data_Hub.md",
+                      "displayName": "Data Hub",
+                      "tags": ["Patterns", "Data", "Reporting"]
+                    },
+                    {
+                      "fileName": "Analytics_Enterprise.md",
+                      "displayName": "Enterprise",
+                      "tags": ["Patterns", "Data", "Reporting"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Storage",
+                  "files": [
+                    {
+                      "fileName": "Zones_Data_Lake.md",
+                      "displayName": "Data Lake Zones",
+                      "tags": [
+                        "Patterns",
+                        "Data",
+                        "Storage",
+                        "Zones",
+                        "Data Lake"
+                      ]
+                    },
+                    {
+                      "fileName": "Zones_EDW.md",
+                      "displayName": "EDW (Teradata)",
+                      "tags": ["Patterns", "Data", "Storage", "Zones", "EDW"]
+                    },
+                    {
+                      "fileName": "Zones_ODS.md",
+                      "displayName": "ODS Zones",
+                      "tags": ["Patterns", "Data", "Storage", "Zones", "ODS"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Transformation",
+                  "files": [
+                    {
+                      "fileName": "Data_Transformation_Data_Lake.md",
+                      "displayName": "Data Transformation Data Lake",
+                      "tags": [
+                        "Patterns",
+                        "Data",
+                        "Transformation",
+                        "Data Lake"
+                      ]
+                    },
+                    {
+                      "fileName": "Data_Transformation_EDW.md",
+                      "displayName": "Data Transformation EDW",
+                      "tags": ["Patterns", "Data", "Transformation", "EDW"]
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "Data Science",
+              "files": [
+                {
+                  "fileName": "ML_Data_Prep.md",
+                  "displayName": "ML Data Prep",
+                  "tags": ["Patterns", "ML", "Data Preparation"]
+                },
+                {
+                  "fileName": "ML_Model_Development.md",
+                  "displayName": "ML Model Development",
+                  "tags": ["Patterns", "ML", "Model Development"]
+                },
+                {
+                  "fileName": "ML_Model_Management.md",
+                  "displayName": "ML Model Management",
+                  "tags": ["Patterns", "ML", "Model Management"]
+                },
+                {
+                  "fileName": "ML_Model_Provisioning.md",
+                  "displayName": "ML Model Provisioning",
+                  "tags": ["Patterns", "ML", "Model Provisioning"]
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Identity",
+              "files": [
+                {
+                  "fileName": "Authentication_Flow.md",
+                  "displayName": "Authentication Flow",
+                  "tags": ["Patterns", "Authentication", "Flow"]
+                },
+                {
+                  "fileName": "Identity_Flow.md",
+                  "displayName": "Identity Flow",
+                  "tags": ["Patterns", "Identity", "Flow"]
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Integration",
+              "files": [
+                {
+                  "fileName": "API_Inbound.md",
+                  "displayName": "API Inbound",
+                  "tags": ["Patterns", "Integration", "API", "Inbound"]
+                },
+                {
+                  "fileName": "API_Outbound.md",
+                  "displayName": "API Outbound",
+                  "tags": ["Patterns", "Integration", "API", "Outbound"]
+                },
+                {
+                  "fileName": "File_Based_ETL.md",
+                  "displayName": "File Based ETL",
+                  "tags": ["Patterns", "Integration", "File Based ETL"]
+                },
+                {
+                  "fileName": "File_Transfer.md",
+                  "displayName": "File Transfer",
+                  "tags": ["Patterns", "Integration", "File Transfer"]
+                },
+                {
+                  "fileName": "Messaging_Large_Pub.md",
+                  "displayName": "Messaging (Large) Pub",
+                  "tags": [
+                    "Patterns",
+                    "Integration",
+                    "Messaging",
+                    "Large",
+                    "Publisher"
+                  ]
+                },
+                {
+                  "fileName": "Messaging_Large_Sub.md",
+                  "displayName": "Messaging (Large) Sub",
+                  "tags": [
+                    "Patterns",
+                    "Integration",
+                    "Messaging",
+                    "Large",
+                    "Subscriber"
+                  ]
+                },
+                {
+                  "fileName": "Messaging_Small_Pub.md",
+                  "displayName": "Messaging (Small) Pub",
+                  "tags": [
+                    "Patterns",
+                    "Integration",
+                    "Messaging",
+                    "Small",
+                    "Publisher"
+                  ]
+                },
+                {
+                  "fileName": "Messaging_Small_Sub.md",
+                  "displayName": "Messaging (Small) Sub",
+                  "tags": [
+                    "Patterns",
+                    "Integration",
+                    "Messaging",
+                    "Small",
+                    "Subscriber"
+                  ]
+                },
+                {
+                  "fileName": "Streaming_Consumer.md",
+                  "displayName": "Streaming Consumer",
+                  "tags": ["Patterns", "Integration", "Streaming", "Consumer"]
+                },
+                {
+                  "fileName": "Streaming_Producer.md",
+                  "displayName": "Streaming Producer",
+                  "tags": ["Patterns", "Integration", "Streaming", "Producer"]
+                },
+                {
+                  "fileName": "Transactional_ETL.md",
+                  "displayName": "Transactional ETL",
+                  "tags": ["Patterns", "Integration", "Transactional ETL"]
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "Cloud Platforms",
+          "files": [
+            {
+              "fileName": "index.md",
+              "displayName": "Platforms",
+              "tags": ["Platforms"]
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "AWS",
+              "files": [
+                {
+                  "fileName": "AccessControl_IAM.md",
+                  "displayName": "Access Control and IAM",
+                  "tags": ["AWS", "Standard Configuration"]
+                },
+                {
+                  "fileName": "AllowedLocations.md",
+                  "displayName": "Allowed Locations",
+                  "tags": ["AWS", "Standard Configuration"]
+                },
+                {
+                  "fileName": "AmazonConnect.md",
+                  "displayName": "Amazon Connect",
+                  "tags": ["AWS", "Standard Configuration"]
+                },
+                {
+                  "fileName": "ApprovedServices.md",
+                  "displayName": "Approved Services",
+                  "tags": ["AWS", "Standard Configuration"]
+                },
+                {
+                  "fileName": "ElasticComputeCloud_EC2.md",
+                  "displayName": "Elastic Compute Cloud (EC2)",
+                  "tags": ["AWS", "Standard Configuration"]
+                },
+                {
+                  "fileName": "Lambda.md",
+                  "displayName": "Lambda",
+                  "tags": ["AWS", "Standard Configuration"]
+                },
+                {
+                  "fileName": "OnDemand_SCIM_Sync.md",
+                  "displayName": "On Demand SCIM Sync",
+                  "tags": ["AWS", "Standard Configuration"]
+                },
+                {
+                  "fileName": "SimpleStorageService_S3.md",
+                  "displayName": "Simple Storage Service (S3)",
+                  "tags": ["AWS", "Standard Configuration"]
+                },
+                {
+                  "fileName": "SingleSignOn_SSO.md",
+                  "displayName": "Single Sign-on (SSO)",
+                  "tags": ["AWS", "Standard Configuration"]
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "images",
+                  "files": [
+                    {
+                      "fileName": "GET-AWS-SSO-APPID.png",
+                      "displayName": "GET-AWS-SSO-APPID"
+                    },
+                    {
+                      "fileName": "GET_SYNCHRONIZATION_JOB.png",
+                      "displayName": "GET_SYNCHRONIZATION_JOB"
+                    },
+                    {
+                      "fileName": "TRIGGER_SYNCHRONIZATION_JOB.png",
+                      "displayName": "TRIGGER_SYNCHRONIZATION_JOB"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "Azure",
+              "files": [
+                {
+                  "fileName": "ADApplicationProxy.md",
+                  "displayName": "AD Application Proxy",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "AccessControl_IAM.md",
+                  "displayName": "Access Control and IAM",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "AllowedLocations.md",
+                  "displayName": "Allowed Locations",
+                  "tags": ["Azure", "Allowed Locations"]
+                },
+                {
+                  "fileName": "AppServices.md",
+                  "displayName": "App Services",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "ApprovedServices.md",
+                  "displayName": "Approved Services",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "AzureAIContentSafety.md",
+                  "displayName": "Azure AI Content Safety",
+                  "tags": ["Azure", "Azure AI Content Safety"]
+                },
+                {
+                  "fileName": "AzureAILanguage.md",
+                  "displayName": "Azure AI Language",
+                  "tags": ["Azure", "Azure AI Language"]
+                },
+                {
+                  "fileName": "AzureAISpeechService.md",
+                  "displayName": "Azure AI Speech Service",
+                  "tags": ["Azure", "Azure AI Speech Service"]
+                },
+                {
+                  "fileName": "AzureActiveDirectory.md",
+                  "displayName": "Azure Active Directory",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "AzureCacheforRedis.md",
+                  "displayName": "Azure Cache for Redis",
+                  "tags": ["Azure", "Azure Cache for Redis"]
+                },
+                {
+                  "fileName": "AzureDocumentIntelligence.md",
+                  "displayName": "Azure Document Intelligence",
+                  "tags": [
+                    "Azure",
+                    "Document Intelligence",
+                    "OCR",
+                    "Document Parsing",
+                    "Gen AI"
+                  ]
+                },
+                {
+                  "fileName": "ContainerRegistry.md",
+                  "displayName": "Azure Container Registry",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "DataFactory.md",
+                  "displayName": "Data Factory",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "DataLake.md",
+                  "displayName": "Azure Data Lake",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "Databricks.md",
+                  "displayName": "Azure Databricks",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "EventHub.md",
+                  "displayName": "Event Hub",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "Functions.md",
+                  "displayName": "Functions",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "KeyVault.md",
+                  "displayName": "Key Vault",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "LogicApps.md",
+                  "displayName": "Logic Apps",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "MachineLearning.md",
+                  "displayName": "Machine Learning Workspace",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "ManagedIdentities.md",
+                  "displayName": "Managed Identities",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "Monitor.md",
+                  "displayName": "Monitor",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "PublicIPAddresses.md",
+                  "displayName": "Public IP Addresses",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "SQLDatabase.md",
+                  "displayName": "Azure SQL Database",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "ServiceBus.md",
+                  "displayName": "Service Bus",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "StorageAccount.md",
+                  "displayName": "Azure Storage Account",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "SubscriptionsHeirarchy.md",
+                  "displayName": "Azure Subscription Hierarchy",
+                  "tags": ["Azure", "Standard Configuration"]
+                },
+                {
+                  "fileName": "VirtualMachines.md",
+                  "displayName": "Azure Virtual Machines",
+                  "tags": ["Azure", "Standard Configuration"]
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "Standards",
+                  "files": [
+                    {
+                      "fileName": "CostManagement.md",
+                      "displayName": "Cost Management",
+                      "tags": ["Cloud", "Azure"]
+                    },
+                    {
+                      "fileName": "Creating New AD App Registrations.md",
+                      "displayName": "Creating New AD App Registration",
+                      "tags": ["Cloud", "Azure", "AD", "App Registration"]
+                    },
+                    {
+                      "fileName": "MonitoringAndAlerting.md",
+                      "displayName": "Monitoring and Alerting",
+                      "tags": ["Cloud", "Azure"]
+                    },
+                    {
+                      "fileName": "NamingStandards.md",
+                      "displayName": "Naming Standards",
+                      "tags": ["Cloud", "Azure"]
+                    },
+                    {
+                      "fileName": "NetworkStrategy.md",
+                      "displayName": "Network Strategy",
+                      "tags": ["Cloud", "Azure"]
+                    },
+                    {
+                      "fileName": "Regions.md",
+                      "displayName": "Regions",
+                      "tags": ["Cloud", "Azure"]
+                    },
+                    {
+                      "fileName": "Security.md",
+                      "displayName": "Security",
+                      "tags": ["Cloud", "Azure"]
+                    },
+                    {
+                      "fileName": "SubscriptionStrategy.md",
+                      "displayName": "Subscription Strategy",
+                      "tags": ["Cloud", "Azure", "Subscriptions"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Support",
+                  "files": [
+                    {
+                      "fileName": "PlatformOperationsRequests.md",
+                      "displayName": "Platform Operations Requests",
+                      "tags": [
+                        "Cloud",
+                        "Azure",
+                        "Requests",
+                        "Incidents",
+                        "landscape diagram",
+                        "support",
+                        "production",
+                        "operations"
+                      ]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "images",
+                  "files": [
+                    {
+                      "fileName": "20191125_PlatformOpsAzureRequests_AsIs.png",
+                      "displayName": "20191125_PlatformOpsAzureRequests_AsIs"
+                    },
+                    {
+                      "fileName": "ApprovalCheckBox.png",
+                      "displayName": "ApprovalCheckBox"
+                    },
+                    {
+                      "fileName": "ApprovalSettingMessage.png",
+                      "displayName": "ApprovalSettingMessage"
+                    },
+                    {
+                      "fileName": "AzureMonitor.PNG",
+                      "displayName": "AzureMonitor"
+                    },
+                    {
+                      "fileName": "CostManagementAccessRoles.png",
+                      "displayName": "CostManagementAccessRoles"
+                    },
+                    {
+                      "fileName": "CreateRelease.png",
+                      "displayName": "CreateRelease"
+                    },
+                    {
+                      "fileName": "PreDeploymentConditions.png",
+                      "displayName": "PreDeploymentConditions"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "SAP BTP",
+              "files": [
+                {
+                  "fileName": "AccessControl_IAM.md",
+                  "displayName": "Access Control and IAM",
+                  "tags": ["SAP BTP", "Standard Configuration"]
+                },
+                {
+                  "fileName": "ApprovedServices.md",
+                  "displayName": "Approved Services",
+                  "tags": ["SAP BTP", "Standard Configuration"]
+                },
+                {
+                  "fileName": "Environments.md",
+                  "displayName": "Environments",
+                  "tags": ["SAP BTP"]
+                },
+                {
+                  "fileName": "NamingStandards.md",
+                  "displayName": "Naming Standards",
+                  "tags": ["SAP BTP, Naming Standards"]
+                },
+                {
+                  "fileName": "RenewSAMLSigningCert.md",
+                  "displayName": "Renew SAP BTP Subaccount SAML Signing Cert for Azure AD SSO",
+                  "tags": ["SAP BTP", "SSO"]
+                },
+                {
+                  "fileName": "Sandbox Subaccount Request.md",
+                  "displayName": "Sandbox Subaccount Request",
+                  "tags": ["SAP BTP", "Sandbox"]
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "RenewSAMLSigningCert_images",
+                  "files": [
+                    {
+                      "fileName": "enterpriseapp_saml_signing_cert.png",
+                      "displayName": "enterpriseapp_saml_signing_cert"
+                    },
+                    {
+                      "fileName": "navigate_to_sso_config.png",
+                      "displayName": "navigate_to_sso_config"
+                    },
+                    {
+                      "fileName": "signingcert_location.png",
+                      "displayName": "signingcert_location"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "directoryName": "Solution Architecture",
+          "files": [
+            {
+              "fileName": "Decorators.md",
+              "displayName": "Decorators",
+              "tags": []
+            },
+            {
+              "fileName": "DesignArtifacts.md",
+              "displayName": "Design Artifacts",
+              "tags": []
+            },
+            {
+              "fileName": "IDesign.md",
+              "displayName": "Abstract",
+              "tags": []
+            },
+            {
+              "fileName": "config.json",
+              "displayName": "config"
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Design",
+              "files": [
+                {
+                  "fileName": "BillOfMaterials.md",
+                  "displayName": "Component Bill Of Materials",
+                  "tags": []
+                },
+                {
+                  "fileName": "CallChainDiagram.md",
+                  "displayName": "Call Chain Diagram (IDesign)",
+                  "tags": []
+                },
+                {
+                  "fileName": "ComponentDiagram.md",
+                  "displayName": "Component Diagram (Non-IDesign)",
+                  "tags": []
+                },
+                {
+                  "fileName": "ContainerDiagram.md",
+                  "displayName": "Container Diagram",
+                  "tags": []
+                },
+                {
+                  "fileName": "DataFlow.md",
+                  "displayName": "Data Flow  Diagram",
+                  "tags": []
+                },
+                {
+                  "fileName": "DynamicDiagram.md",
+                  "displayName": "Dynamic Diagram (Non-IDesign)",
+                  "tags": []
+                },
+                {
+                  "fileName": "LandscapeDiagram.md",
+                  "displayName": "Landscape  Diagram",
+                  "tags": []
+                },
+                {
+                  "fileName": "LogicalDataModel.md",
+                  "displayName": "Logical Data Model",
+                  "tags": []
+                },
+                {
+                  "fileName": "SequenceDiagram.md",
+                  "displayName": "Sequence Diagram"
+                },
+                {
+                  "fileName": "StaticDiagram.md",
+                  "displayName": "Static  Diagram (IDesign)",
+                  "tags": []
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "Images",
+                  "files": [
+                    {
+                      "fileName": "CBOM.PNG",
+                      "displayName": "CBOM"
+                    },
+                    {
+                      "fileName": "CallChain-NormalCall.PNG",
+                      "displayName": "CallChain-NormalCall"
+                    },
+                    {
+                      "fileName": "CallChain-QueuedCall.PNG",
+                      "displayName": "CallChain-QueuedCall"
+                    },
+                    {
+                      "fileName": "CallChainExample.PNG",
+                      "displayName": "CallChainExample"
+                    },
+                    {
+                      "fileName": "Component-Access.PNG",
+                      "displayName": "Component-Access"
+                    },
+                    {
+                      "fileName": "Component-Client.PNG",
+                      "displayName": "Component-Client"
+                    },
+                    {
+                      "fileName": "Component-Engine.PNG",
+                      "displayName": "Component-Engine"
+                    },
+                    {
+                      "fileName": "Component-Manager.PNG",
+                      "displayName": "Component-Manager"
+                    },
+                    {
+                      "fileName": "Component-Resource-API.PNG",
+                      "displayName": "Component-Resource-API"
+                    },
+                    {
+                      "fileName": "Component-Resource-File.PNG",
+                      "displayName": "Component-Resource-File"
+                    },
+                    {
+                      "fileName": "Component-Resource-NoSQL.PNG",
+                      "displayName": "Component-Resource-NoSQL"
+                    },
+                    {
+                      "fileName": "Component-Resource-SQL.PNG",
+                      "displayName": "Component-Resource-SQL"
+                    },
+                    {
+                      "fileName": "Component-Utility.PNG",
+                      "displayName": "Component-Utility"
+                    },
+                    {
+                      "fileName": "Component_Boundry.PNG",
+                      "displayName": "Component_Boundry"
+                    },
+                    {
+                      "fileName": "Component_Component.PNG",
+                      "displayName": "Component_Component"
+                    },
+                    {
+                      "fileName": "Component_Example.PNG",
+                      "displayName": "Component_Example"
+                    },
+                    {
+                      "fileName": "Component_Relationship.PNG",
+                      "displayName": "Component_Relationship"
+                    },
+                    {
+                      "fileName": "ContainerDiagram-Example.png",
+                      "displayName": "ContainerDiagram-Example"
+                    },
+                    {
+                      "fileName": "ContainerDiagram-Persistence.PNG",
+                      "displayName": "ContainerDiagram-Persistence"
+                    },
+                    {
+                      "fileName": "Dynamic-Example.PNG",
+                      "displayName": "Dynamic-Example"
+                    },
+                    {
+                      "fileName": "Sequence-ActivationBar.PNG",
+                      "displayName": "Sequence-ActivationBar"
+                    },
+                    {
+                      "fileName": "Sequence-Actor.PNG",
+                      "displayName": "Sequence-Actor"
+                    },
+                    {
+                      "fileName": "Sequence-AltFragment.PNG",
+                      "displayName": "Sequence-AltFragment"
+                    },
+                    {
+                      "fileName": "Sequence-AsynchronousMessage.PNG",
+                      "displayName": "Sequence-AsynchronousMessage"
+                    },
+                    {
+                      "fileName": "Sequence-Comment.PNG",
+                      "displayName": "Sequence-Comment"
+                    },
+                    {
+                      "fileName": "Sequence-Component.PNG",
+                      "displayName": "Sequence-Component"
+                    },
+                    {
+                      "fileName": "Sequence-LoopFragement.PNG",
+                      "displayName": "Sequence-LoopFragement"
+                    },
+                    {
+                      "fileName": "Sequence-OptionalFragment.PNG",
+                      "displayName": "Sequence-OptionalFragment"
+                    },
+                    {
+                      "fileName": "Sequence-RefFragment.PNG",
+                      "displayName": "Sequence-RefFragment"
+                    },
+                    {
+                      "fileName": "Sequence-ReturnMessage.PNG",
+                      "displayName": "Sequence-ReturnMessage"
+                    },
+                    {
+                      "fileName": "Sequence-SynchronousMessage.PNG",
+                      "displayName": "Sequence-SynchronousMessage"
+                    },
+                    {
+                      "fileName": "SequnceDiagram-Example.PNG",
+                      "displayName": "SequnceDiagram-Example"
+                    },
+                    {
+                      "fileName": "StaticDiagramExample.PNG",
+                      "displayName": "StaticDiagramExample"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "Development",
+              "files": [
+                {
+                  "fileName": "DetailedDesign.md",
+                  "displayName": "Detailed Design (IDesign)",
+                  "tags": []
+                },
+                {
+                  "fileName": "PhysicalDataModel.md",
+                  "displayName": "Physical Data Model",
+                  "tags": []
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Images",
+              "files": [
+                {
+                  "fileName": "AddIcon.PNG",
+                  "displayName": "AddIcon"
+                },
+                {
+                  "fileName": "C4ExternalSystem.png",
+                  "displayName": "C4ExternalSystem"
+                },
+                {
+                  "fileName": "C4SolidConnector.png",
+                  "displayName": "C4SolidConnector"
+                },
+                {
+                  "fileName": "C4SystemUnderDesign.png",
+                  "displayName": "C4SystemUnderDesign"
+                },
+                {
+                  "fileName": "C4User.png",
+                  "displayName": "C4User"
+                },
+                {
+                  "fileName": "DecoratorExample.PNG",
+                  "displayName": "DecoratorExample"
+                },
+                {
+                  "fileName": "DeleteIcon.PNG",
+                  "displayName": "DeleteIcon"
+                },
+                {
+                  "fileName": "FutureIcon.PNG",
+                  "displayName": "FutureIcon"
+                },
+                {
+                  "fileName": "UnSupportedIcon.PNG",
+                  "displayName": "UnSupportedIcon"
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Requirements",
+              "files": [
+                {
+                  "fileName": "ActivityDiagram.md",
+                  "displayName": "Activity Diagram",
+                  "tags": []
+                },
+                {
+                  "fileName": "Assessment.md",
+                  "displayName": "Assessment",
+                  "tags": []
+                },
+                {
+                  "fileName": "ContextDiagram.md",
+                  "displayName": "Context Diagram",
+                  "tags": []
+                },
+                {
+                  "fileName": "UseCase.md",
+                  "displayName": "Use Cases",
+                  "tags": []
+                },
+                {
+                  "fileName": "config.json",
+                  "displayName": "config"
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "Images",
+                  "files": [
+                    {
+                      "fileName": "Activity-Activity.PNG",
+                      "displayName": "Activity-Activity"
+                    },
+                    {
+                      "fileName": "Activity-ControlFlow.PNG",
+                      "displayName": "Activity-ControlFlow"
+                    },
+                    {
+                      "fileName": "Activity-Descision.PNG",
+                      "displayName": "Activity-Descision"
+                    },
+                    {
+                      "fileName": "Activity-Descisions.PNG",
+                      "displayName": "Activity-Descisions"
+                    },
+                    {
+                      "fileName": "Activity-End.PNG",
+                      "displayName": "Activity-End"
+                    },
+                    {
+                      "fileName": "Activity-Example.PNG",
+                      "displayName": "Activity-Example"
+                    },
+                    {
+                      "fileName": "Activity-Fork.PNG",
+                      "displayName": "Activity-Fork"
+                    },
+                    {
+                      "fileName": "Activity-Join.PNG",
+                      "displayName": "Activity-Join"
+                    },
+                    {
+                      "fileName": "Activity-Link.PNG",
+                      "displayName": "Activity-Link"
+                    },
+                    {
+                      "fileName": "Activity-Merge.PNG",
+                      "displayName": "Activity-Merge"
+                    },
+                    {
+                      "fileName": "Activity-Start.PNG",
+                      "displayName": "Activity-Start"
+                    },
+                    {
+                      "fileName": "Activity-Swimlane.PNG",
+                      "displayName": "Activity-Swimlane"
+                    },
+                    {
+                      "fileName": "DecoratorExample.PNG",
+                      "displayName": "DecoratorExample"
+                    },
+                    {
+                      "fileName": "ExampleContext.png",
+                      "displayName": "ExampleContext"
+                    },
+                    {
+                      "fileName": "Swimlanes.png",
+                      "displayName": "Swimlanes"
+                    },
+                    {
+                      "fileName": "swimlane-activity-diagram.avif",
+                      "displayName": "swimlane-activity-diagram"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "Sample System",
+              "files": [],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "Technical Architecture Patterns",
+          "files": [
+            {
+              "fileName": "CustomAppDev - WebAppApiAppFuncAppDB.md",
+              "displayName": "Custom App Dev - Web Application",
+              "tags": ["Patterns", "Azure", "Cloud", "Packages"]
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Azure Technical",
+              "files": [
+                {
+                  "fileName": "App Registrations.md",
+                  "displayName": "App Registrations",
+                  "tags": ["Patterns", "Azure", "Cloud", "App Registrations"]
+                },
+                {
+                  "fileName": "App Service - API App.md",
+                  "displayName": "App Service - API App",
+                  "tags": [
+                    "Patterns",
+                    "Azure",
+                    "Cloud",
+                    "App Service",
+                    "API App"
+                  ]
+                },
+                {
+                  "fileName": "App Service - Web App.md",
+                  "displayName": "App Service - Web App",
+                  "tags": [
+                    "Patterns",
+                    "Azure",
+                    "Cloud",
+                    "App Service",
+                    "Web App"
+                  ]
+                },
+                {
+                  "fileName": "AppServicePlan.md",
+                  "displayName": "App Service Plan",
+                  "tags": ["Patterns", "Azure", "Cloud", "App Service Plan"]
+                },
+                {
+                  "fileName": "Application Insights.md",
+                  "displayName": "Application Insights",
+                  "tags": ["Patterns", "Azure", "Cloud", "Application Insights"]
+                },
+                {
+                  "fileName": "Azure SQL Database.md",
+                  "displayName": "Azure SQL Database",
+                  "tags": ["Patterns", "Azure", "Cloud", "Azure SQL Database"]
+                },
+                {
+                  "fileName": "Azure Storage Account.md",
+                  "displayName": "Azure Storage Account",
+                  "tags": [
+                    "Patterns",
+                    "Azure",
+                    "Cloud",
+                    "Azure Storage Account"
+                  ]
+                },
+                {
+                  "fileName": "Ceritifcates.md",
+                  "displayName": "Certificates",
+                  "tags": ["Patterns", "Azure", "Cloud", "Certificates"]
+                },
+                {
+                  "fileName": "CustomDomain - Cloudflare.md",
+                  "displayName": "Custom Domain - Cloudflare",
+                  "tags": [
+                    "Patterns",
+                    "Azure",
+                    "Cloud",
+                    "Custom Domain - Cloudflare"
+                  ]
+                },
+                {
+                  "fileName": "Function App - Hosted on ASP.md",
+                  "displayName": "Function App - Hosted on ASP",
+                  "tags": ["Patterns", "Azure", "Cloud", "Function App"]
+                },
+                {
+                  "fileName": "Key Vault.md",
+                  "displayName": "Key Vault",
+                  "tags": ["Patterns", "Azure", "Cloud", "Key Vault"]
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "images",
+              "files": [
+                {
+                  "fileName": "CustomAppDevPackg1.PNG",
+                  "displayName": "CustomAppDevPackg1"
+                },
+                {
+                  "fileName": "CustomAppDevPackg10.PNG",
+                  "displayName": "CustomAppDevPackg10"
+                },
+                {
+                  "fileName": "CustomAppDevPackg11.PNG",
+                  "displayName": "CustomAppDevPackg11"
+                },
+                {
+                  "fileName": "CustomAppDevPackg2.PNG",
+                  "displayName": "CustomAppDevPackg2"
+                },
+                {
+                  "fileName": "CustomAppDevPackg3.PNG",
+                  "displayName": "CustomAppDevPackg3"
+                },
+                {
+                  "fileName": "CustomAppDevPackg4.PNG",
+                  "displayName": "CustomAppDevPackg4"
+                },
+                {
+                  "fileName": "CustomAppDevPackg5.PNG",
+                  "displayName": "CustomAppDevPackg5"
+                },
+                {
+                  "fileName": "CustomAppDevPackg6.PNG",
+                  "displayName": "CustomAppDevPackg6"
+                },
+                {
+                  "fileName": "CustomAppDevPackg7.PNG",
+                  "displayName": "CustomAppDevPackg7"
+                },
+                {
+                  "fileName": "CustomAppDevPackg8.PNG",
+                  "displayName": "CustomAppDevPackg8"
+                },
+                {
+                  "fileName": "CustomAppDevPackg9.PNG",
+                  "displayName": "CustomAppDevPackg9"
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "images",
+          "files": [
+            {
+              "fileName": "CloudPlatforms.png",
+              "displayName": "CloudPlatforms"
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "PatternIcons",
+              "files": [
+                {
+                  "fileName": "APIInbound.png",
+                  "displayName": "APIInbound"
+                },
+                {
+                  "fileName": "APIOutbound.png",
+                  "displayName": "APIOutbound"
+                },
+                {
+                  "fileName": "AuthenticationFlow.png",
+                  "displayName": "AuthenticationFlow"
+                },
+                {
+                  "fileName": "CustomCloudDotNetAuthentication.png",
+                  "displayName": "CustomCloudDotNetAuthentication"
+                },
+                {
+                  "fileName": "CustomCloudDotNetAuthorization.png",
+                  "displayName": "CustomCloudDotNetAuthorization"
+                },
+                {
+                  "fileName": "CustomCloudWebApp.png",
+                  "displayName": "CustomCloudWebApp"
+                },
+                {
+                  "fileName": "CustomOnPremDesktopApp.png",
+                  "displayName": "CustomOnPremDesktopApp"
+                },
+                {
+                  "fileName": "CustomOnPremWebApp.png",
+                  "displayName": "CustomOnPremWebApp"
+                },
+                {
+                  "fileName": "DataBusinessCatalog.png",
+                  "displayName": "DataBusinessCatalog"
+                },
+                {
+                  "fileName": "DataCatalogAndLineage.png",
+                  "displayName": "DataCatalogAndLineage"
+                },
+                {
+                  "fileName": "DataIngestion.png",
+                  "displayName": "DataIngestion"
+                },
+                {
+                  "fileName": "DataLakeArchiving.png",
+                  "displayName": "DataLakeArchiving"
+                },
+                {
+                  "fileName": "DataQuality.png",
+                  "displayName": "DataQuality"
+                },
+                {
+                  "fileName": "DataStorageDataLake.png",
+                  "displayName": "DataStorageDataLake"
+                },
+                {
+                  "fileName": "DataStorageEDW.png",
+                  "displayName": "DataStorageEDW"
+                },
+                {
+                  "fileName": "DataStorageODS.png",
+                  "displayName": "DataStorageODS"
+                },
+                {
+                  "fileName": "DataTransformationDataLake.png",
+                  "displayName": "DataTransformationDataLake"
+                },
+                {
+                  "fileName": "DataTransformationEDW.png",
+                  "displayName": "DataTransformationEDW"
+                },
+                {
+                  "fileName": "DataWarehouseArchiving.png",
+                  "displayName": "DataWarehouseArchiving"
+                },
+                {
+                  "fileName": "FileBasedETL.png",
+                  "displayName": "FileBasedETL"
+                },
+                {
+                  "fileName": "FileTransfer.png",
+                  "displayName": "FileTransfer"
+                },
+                {
+                  "fileName": "IdentityFlow.png",
+                  "displayName": "IdentityFlow"
+                },
+                {
+                  "fileName": "MessagingLargePub.png",
+                  "displayName": "MessagingLargePub"
+                },
+                {
+                  "fileName": "MessagingLargeSub.png",
+                  "displayName": "MessagingLargeSub"
+                },
+                {
+                  "fileName": "MessagingSmallPub.png",
+                  "displayName": "MessagingSmallPub"
+                },
+                {
+                  "fileName": "MessagingSmallSub.png",
+                  "displayName": "MessagingSmallSub"
+                },
+                {
+                  "fileName": "MetadataManagement.png",
+                  "displayName": "MetadataManagement"
+                },
+                {
+                  "fileName": "SaaSApp.png",
+                  "displayName": "SaaSApp"
+                },
+                {
+                  "fileName": "StreamingConsumer.png",
+                  "displayName": "StreamingConsumer"
+                },
+                {
+                  "fileName": "StreamingProducer.png",
+                  "displayName": "StreamingProducer"
+                },
+                {
+                  "fileName": "TempIcon.png",
+                  "displayName": "TempIcon"
+                },
+                {
+                  "fileName": "TransactionalETL.png",
+                  "displayName": "TransactionalETL"
+                },
+                {
+                  "fileName": "WalledGraveyard.png",
+                  "displayName": "WalledGraveyard"
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Patterns",
+              "files": [
+                {
+                  "fileName": "PatternApplicationCustomDevDotNetAuthentication.png",
+                  "displayName": "PatternApplicationCustomDevDotNetAuthentication"
+                },
+                {
+                  "fileName": "PatternApplicationCustomDevDotNetAuthorization.png",
+                  "displayName": "PatternApplicationCustomDevDotNetAuthorization"
+                },
+                {
+                  "fileName": "PatternApplicationCustomDevWebAppAndWebAPI.png",
+                  "displayName": "PatternApplicationCustomDevWebAppAndWebAPI"
+                },
+                {
+                  "fileName": "PatternApplicationSaaSApp.png",
+                  "displayName": "PatternApplicationSaaSApp"
+                },
+                {
+                  "fileName": "PatternDataArchiveDataLake.png",
+                  "displayName": "PatternDataArchiveDataLake"
+                },
+                {
+                  "fileName": "PatternDataArchiveDataWarehouse.png",
+                  "displayName": "PatternDataArchiveDataWarehouse"
+                },
+                {
+                  "fileName": "PatternDataArchiveWalledGraveyard.png",
+                  "displayName": "PatternDataArchiveWalledGraveyard"
+                },
+                {
+                  "fileName": "PatternDataIngestion.png",
+                  "displayName": "PatternDataIngestion"
+                },
+                {
+                  "fileName": "PatternDataManagementBusinessGlossary.png",
+                  "displayName": "PatternDataManagementBusinessGlossary"
+                },
+                {
+                  "fileName": "PatternDataManagementDataCatalogandDataLineage.png",
+                  "displayName": "PatternDataManagementDataCatalogandDataLineage"
+                },
+                {
+                  "fileName": "PatternDataManagementDataQuality.png",
+                  "displayName": "PatternDataManagementDataQuality"
+                },
+                {
+                  "fileName": "PatternDataManagementMetadataManagement.png",
+                  "displayName": "PatternDataManagementMetadataManagement"
+                },
+                {
+                  "fileName": "PatternDataScienceMLDataPrep.png",
+                  "displayName": "PatternDataScienceMLDataPrep"
+                },
+                {
+                  "fileName": "PatternDataScienceMLModelDevelopment.png",
+                  "displayName": "PatternDataScienceMLModelDevelopment"
+                },
+                {
+                  "fileName": "PatternDataScienceMLModelManagement.png",
+                  "displayName": "PatternDataScienceMLModelManagement"
+                },
+                {
+                  "fileName": "PatternDataScienceModelProvisioning.png",
+                  "displayName": "PatternDataScienceModelProvisioning"
+                },
+                {
+                  "fileName": "PatternDataStorageZonesDataLake.png",
+                  "displayName": "PatternDataStorageZonesDataLake"
+                },
+                {
+                  "fileName": "PatternDataStorageZonesEDW.png",
+                  "displayName": "PatternDataStorageZonesEDW"
+                },
+                {
+                  "fileName": "PatternDataStorageZonesODS.png",
+                  "displayName": "PatternDataStorageZonesODS"
+                },
+                {
+                  "fileName": "PatternDataTransformationDataLake.png",
+                  "displayName": "PatternDataTransformationDataLake"
+                },
+                {
+                  "fileName": "PatternDataTransformationEDW.png",
+                  "displayName": "PatternDataTransformationEDW"
+                },
+                {
+                  "fileName": "PatternIdentityAuthenticationFlow.png",
+                  "displayName": "PatternIdentityAuthenticationFlow"
+                },
+                {
+                  "fileName": "PatternIdentityIdentityFlow.png",
+                  "displayName": "PatternIdentityIdentityFlow"
+                },
+                {
+                  "fileName": "PatternIntegrationFileBasedETL.png",
+                  "displayName": "PatternIntegrationFileBasedETL"
+                },
+                {
+                  "fileName": "PatternIntegrationFileTransfer.png",
+                  "displayName": "PatternIntegrationFileTransfer"
+                },
+                {
+                  "fileName": "PatternIntegrationMessagingAPIInbound.png",
+                  "displayName": "PatternIntegrationMessagingAPIInbound"
+                },
+                {
+                  "fileName": "PatternIntegrationMessagingAPIOutbound.png",
+                  "displayName": "PatternIntegrationMessagingAPIOutbound"
+                },
+                {
+                  "fileName": "PatternIntegrationMessagingLargePub.png",
+                  "displayName": "PatternIntegrationMessagingLargePub"
+                },
+                {
+                  "fileName": "PatternIntegrationMessagingLargeSub.png",
+                  "displayName": "PatternIntegrationMessagingLargeSub"
+                },
+                {
+                  "fileName": "PatternIntegrationMessagingSmallPub.png",
+                  "displayName": "PatternIntegrationMessagingSmallPub"
+                },
+                {
+                  "fileName": "PatternIntegrationMessagingSmallSub.png",
+                  "displayName": "PatternIntegrationMessagingSmallSub"
+                },
+                {
+                  "fileName": "PatternIntegrationStreamingConsumer.png",
+                  "displayName": "PatternIntegrationStreamingConsumer"
+                },
+                {
+                  "fileName": "PatternIntegrationStreamingProducer.png",
+                  "displayName": "PatternIntegrationStreamingProducer"
+                },
+                {
+                  "fileName": "PatternIntegrationTransactionalETL.png",
+                  "displayName": "PatternIntegrationTransactionalETL"
+                },
+                {
+                  "fileName": "PatternReportingandAnalyticsDataHub.png",
+                  "displayName": "PatternReportingandAnalyticsDataHub"
+                },
+                {
+                  "fileName": "PatternReportingandAnalyticsEnterprise.png",
+                  "displayName": "PatternReportingandAnalyticsEnterprise"
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "directoryName": "data",
+      "files": [
+        {
+          "fileName": "Terms.md",
+          "displayName": "Terms & Definitions"
+        },
+        {
+          "fileName": "config.json",
+          "displayName": "config"
+        },
+        {
+          "fileName": "index.md",
+          "displayName": "Home"
+        }
+      ],
+      "subDirectories": [
+        {
+          "directoryName": "Data Lake Patterns",
+          "files": [
+            {
+              "fileName": "config.json",
+              "displayName": "config"
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Sandbox",
+              "files": [
+                {
+                  "fileName": "Sandbox Access Methods.md",
+                  "displayName": "Sandbox Access Methods",
+                  "tags": [
+                    "Kiewit Data Platform",
+                    "KDP",
+                    "Data Lake",
+                    "Sandbox"
+                  ]
+                },
+                {
+                  "fileName": "Sandbox Best Practices.md",
+                  "displayName": "Sandbox Best Practices",
+                  "tags": [
+                    "Kiewit Data Platform",
+                    "KDP",
+                    "Data Lake",
+                    "Sandbox"
+                  ]
+                },
+                {
+                  "fileName": "Sandbox Data.md",
+                  "displayName": "Sandbox Data",
+                  "tags": [
+                    "Kiewit Data Platform",
+                    "KDP",
+                    "Data Lake",
+                    "Sandbox"
+                  ]
+                },
+                {
+                  "fileName": "Sandbox Deletion.md",
+                  "displayName": "Sandbox Deletion",
+                  "tags": [
+                    "Kiewit Data Platform",
+                    "KDP",
+                    "Data Lake",
+                    "Sandbox"
+                  ]
+                },
+                {
+                  "fileName": "Sandbox Folder Location.md",
+                  "displayName": "Sandbox Folder Location and Naming",
+                  "tags": [
+                    "Kiewit Data Platform",
+                    "KDP",
+                    "Data Lake",
+                    "Sandbox"
+                  ]
+                },
+                {
+                  "fileName": "Sandbox Maintenance.md",
+                  "displayName": "Sandbox Maintenance",
+                  "tags": [
+                    "Kiewit Data Platform",
+                    "KDP",
+                    "Data Lake",
+                    "Sandbox"
+                  ]
+                },
+                {
+                  "fileName": "Sandbox Pattern.md",
+                  "displayName": "Sandbox Pattern",
+                  "tags": [
+                    "Kiewit Data Platform",
+                    "KDP",
+                    "Data Lake",
+                    "Sandbox"
+                  ]
+                },
+                {
+                  "fileName": "Sandbox Provisioning.md",
+                  "displayName": "Sandbox Request Process",
+                  "tags": [
+                    "Kiewit Data Platform",
+                    "KDP",
+                    "Data Lake",
+                    "Sandbox"
+                  ]
+                },
+                {
+                  "fileName": "Sandbox RACI.md",
+                  "displayName": "Sandbox RACI",
+                  "tags": [
+                    "Kiewit Data Platform",
+                    "KDP",
+                    "Data Lake",
+                    "Sandbox"
+                  ]
+                },
+                {
+                  "fileName": "Sandbox Security.md",
+                  "displayName": "Sandbox Security",
+                  "tags": [
+                    "Kiewit Data Platform",
+                    "KDP",
+                    "Data Lake",
+                    "Sandbox"
+                  ]
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Security",
+              "files": [
+                {
+                  "fileName": "Security Model Overview.md",
+                  "displayName": "Security Model",
+                  "tags": ["Kiewit Data Platform", "KDP", "Data Lake"]
+                },
+                {
+                  "fileName": "Security Pattern - Non-Production.md",
+                  "displayName": "Security Pattern Non-Production",
+                  "tags": ["Kiewit Data Platform", "KDP", "Data Lake"]
+                },
+                {
+                  "fileName": "Security Pattern - Production.md",
+                  "displayName": "Security Pattern Production",
+                  "tags": ["Kiewit Data Platform", "KDP", "Data Lake"]
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Structure",
+              "files": [
+                {
+                  "fileName": "Folder Structure Pattern.md",
+                  "displayName": "Data Lake Folder Pattern",
+                  "tags": ["Kiewit Data Platform", "KDP", "Data Lake"]
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Usage",
+              "files": [
+                {
+                  "fileName": "Databricks and the Data Lake.md",
+                  "displayName": "Databricks and the Data Lake",
+                  "tags": ["Kiewit Data Platform", "KDP", "Data Lake"]
+                },
+                {
+                  "fileName": "Delta Lake Delta Tables.md",
+                  "displayName": "Data Lake Delta Tables",
+                  "tags": ["Kiewit Data Platform", "KDP", "Data Lake"]
+                },
+                {
+                  "fileName": "ETL for Structured Data Pattern.md",
+                  "displayName": "ETL for Structured Data in the Data Lake Pattern",
+                  "tags": ["Kiewit Data Platform", "KDP", "Data Lake"]
+                },
+                {
+                  "fileName": "File Formats and Compression.md",
+                  "displayName": "Data Lake File Formats and Compression",
+                  "tags": ["Kiewit Data Platform", "KDP", "Data Lake"]
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "images",
+              "files": [
+                {
+                  "fileName": "DataLakeSecurityGroupAssignments.png",
+                  "displayName": "DataLakeSecurityGroupAssignments"
+                },
+                {
+                  "fileName": "Data_Factory_Add_Databricks_Notebook_Activity_To_Pipeline.png",
+                  "displayName": "Data_Factory_Add_Databricks_Notebook_Activity_To_Pipeline"
+                },
+                {
+                  "fileName": "Data_Factory_Create_New_Pipeline.png",
+                  "displayName": "Data_Factory_Create_New_Pipeline"
+                },
+                {
+                  "fileName": "Data_Lake_Architecture_Components.png",
+                  "displayName": "Data_Lake_Architecture_Components"
+                },
+                {
+                  "fileName": "Data_Lake_Folder_Security_Group_Assignments.png",
+                  "displayName": "Data_Lake_Folder_Security_Group_Assignments"
+                },
+                {
+                  "fileName": "Data_Lake_Structure_Architecture.png",
+                  "displayName": "Data_Lake_Structure_Architecture"
+                },
+                {
+                  "fileName": "High_Level_Kiewit_Data_Platform_Architecture.png",
+                  "displayName": "High_Level_Kiewit_Data_Platform_Architecture"
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "Data Placement Guide",
+          "files": [
+            {
+              "fileName": "Workload Placement Guide.md",
+              "displayName": "Workload Placement Guide",
+              "tags": ["Kiewit Data Platform", "KDP", "EDW", "ODS", "Data Lake"]
+            },
+            {
+              "fileName": "Workload Placement Summary.md",
+              "displayName": "Workload Placement Summary",
+              "tags": ["Kiewit Data Platform", "KDP", "EDW", "ODS", "Data Lake"]
+            }
+          ],
+          "subDirectories": []
+        },
+        {
+          "directoryName": "Data Quality",
+          "files": [],
+          "subDirectories": [
+            {
+              "directoryName": "RACI",
+              "files": [
+                {
+                  "fileName": "config.json",
+                  "displayName": "config"
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "Deployment",
+                  "files": [
+                    {
+                      "fileName": "DataQualityRACIDeployment.md",
+                      "displayName": "Deployment",
+                      "tags": ["Data Quality"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Design",
+                  "files": [
+                    {
+                      "fileName": "DataQualityRACIBusinessMetadata.md",
+                      "displayName": "Business Metadata",
+                      "tags": ["Data Quality"]
+                    },
+                    {
+                      "fileName": "DataQualityRACIDesignDataModeling.md",
+                      "displayName": "Data Modeling",
+                      "tags": ["Data Quality"]
+                    },
+                    {
+                      "fileName": "DataQualityRACIDesignTestPlans.md",
+                      "displayName": "Test Plans",
+                      "tags": ["Data Quality"]
+                    },
+                    {
+                      "fileName": "DataQualityRACIRulesAndValidation.md",
+                      "displayName": "Rules and Validation",
+                      "tags": ["Data Quality"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Development",
+                  "files": [
+                    {
+                      "fileName": "DataQualityRACIDevelopment.md",
+                      "displayName": "Development",
+                      "tags": ["Data Quality"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Operations & Maintenance",
+                  "files": [
+                    {
+                      "fileName": "DataQualityRACIOperationsAndMaintenance.md",
+                      "displayName": "Operations and Maintenance",
+                      "tags": ["Data Quality"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Planning",
+                  "files": [
+                    {
+                      "fileName": "DataQualityRACIPlanning.md",
+                      "displayName": "Planning",
+                      "tags": ["Data Quality"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Requirements",
+                  "files": [
+                    {
+                      "fileName": "DataQualityRACIRequirements.md",
+                      "displayName": "Requirements",
+                      "tags": ["Data Quality"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Testing",
+                  "files": [
+                    {
+                      "fileName": "DataQualityRACITesting.md",
+                      "displayName": "Testing",
+                      "tags": ["Data Quality"]
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "directoryName": "Data and Analytics General",
+          "files": [
+            {
+              "fileName": "Data Lake.md",
+              "displayName": "Data Lake",
+              "tags": ["Kiewit Data Platform", "KDP", "Data Lake"]
+            },
+            {
+              "fileName": "Enterprise Data Warehouse.md",
+              "displayName": "Enterprise Data Warehouse",
+              "tags": ["Kiewit Data Platform", "KDP", "EDW"]
+            },
+            {
+              "fileName": "Operational Data Store.md",
+              "displayName": "Operational Data Store",
+              "tags": ["Kiewit Data Platform", "KDP", "ODS"]
+            }
+          ],
+          "subDirectories": []
+        },
+        {
+          "directoryName": "Kiewit Data Platform",
+          "files": [
+            {
+              "fileName": "Overview.md",
+              "displayName": "Overview",
+              "tags": ["Kiewit Data Platform", "KDP"]
+            },
+            {
+              "fileName": "Tools.md",
+              "displayName": "Tools",
+              "tags": ["Kiewit Data Platform", "KDP", "Tools"]
+            }
+          ],
+          "subDirectories": []
+        },
+        {
+          "directoryName": "Snowflake",
+          "files": [
+            {
+              "fileName": "Overview.md",
+              "displayName": "Overview",
+              "tags": ["Snowflake"]
+            },
+            {
+              "fileName": "Warehouse.md",
+              "displayName": "Warehouse",
+              "tags": ["Snowflake", "Warehouse"]
+            },
+            {
+              "fileName": "config.json",
+              "displayName": "config"
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Azure DevOps DataOps",
+              "files": [
+                {
+                  "fileName": "Git.md",
+                  "displayName": "Git",
+                  "tags": ["Snowflake", "DevOps", "DataOps", "Git"]
+                },
+                {
+                  "fileName": "Pipeline.md",
+                  "displayName": "Pipeline",
+                  "tags": ["Snowflake", "DevOps", "DataOps", "Pipeline"]
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "images",
+                  "files": [
+                    {
+                      "fileName": "FlywayHistoryTable.PNG",
+                      "displayName": "FlywayHistoryTable"
+                    },
+                    {
+                      "fileName": "RepoFolderStructure.PNG",
+                      "displayName": "RepoFolderStructure"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "Data and Governance",
+              "files": [
+                {
+                  "fileName": "Masking.md",
+                  "displayName": "Masking Procedure",
+                  "tags": ["Snowflake", "Masking"]
+                },
+                {
+                  "fileName": "Row Access.md",
+                  "displayName": "Row Access Procedure",
+                  "tags": ["Snowflake", "Masking", "Security", "Row", "Access"]
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Database",
+              "files": [
+                {
+                  "fileName": "EnterpriseData.md",
+                  "displayName": "Kiewit Enterprise Data",
+                  "tags": ["Snowflake", "Database", "Enterprise", "EDW", "Data"]
+                },
+                {
+                  "fileName": "Time Travel.md",
+                  "displayName": "Time Travel",
+                  "tags": [
+                    "Snowflake",
+                    "Database",
+                    "Enterprise",
+                    "EDW",
+                    "Data",
+                    "Time Travel"
+                  ]
+                },
+                {
+                  "fileName": "config.json",
+                  "displayName": "config"
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Development",
+              "files": [
+                {
+                  "fileName": "MSNET.md",
+                  "displayName": "C# .Net",
+                  "tags": ["Snowflake", "C#", ".NET"]
+                },
+                {
+                  "fileName": "Naming Standards.md",
+                  "displayName": "Naming Standards",
+                  "tags": ["Snowflake", "Standards", "Naming"]
+                },
+                {
+                  "fileName": "PowerBI.md",
+                  "displayName": "PowerBI",
+                  "tags": ["Snowflake", "PowerBI", "Reporting"]
+                },
+                {
+                  "fileName": "Python.md",
+                  "displayName": "Python",
+                  "tags": ["Snowflake", "Python"]
+                },
+                {
+                  "fileName": "Snowsight.md",
+                  "displayName": "Snowsight",
+                  "tags": ["Snowflake", "Snowsight", "Query"]
+                },
+                {
+                  "fileName": "config.json",
+                  "displayName": "config"
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "Data Acquisition",
+                  "files": [
+                    {
+                      "fileName": "0-Modernization.png",
+                      "displayName": "0-Modernization"
+                    },
+                    {
+                      "fileName": "1-Ingestion.png",
+                      "displayName": "1-Ingestion"
+                    },
+                    {
+                      "fileName": "2-Source_History_Table.png",
+                      "displayName": "2-Source_History_Table"
+                    },
+                    {
+                      "fileName": "3-Core_Table_Load.png",
+                      "displayName": "3-Core_Table_Load"
+                    },
+                    {
+                      "fileName": "3a-Load_Failure_Process.png",
+                      "displayName": "3a-Load_Failure_Process"
+                    },
+                    {
+                      "fileName": "4-Auditing.png",
+                      "displayName": "4-Auditing"
+                    },
+                    {
+                      "fileName": "API.md",
+                      "displayName": "API",
+                      "tags": ["Snowflake", "Ingestion", "Acquisition", "API"]
+                    },
+                    {
+                      "fileName": "HVR Example Code.md",
+                      "displayName": "HVR Example Code",
+                      "tags": ["Snowflake", "HVR", "CDC", "Replication"]
+                    },
+                    {
+                      "fileName": "HVR Replication and IICS FIle Ingestion.md",
+                      "displayName": "HVR Replication and IICS File Ingestion",
+                      "tags": ["Snowflake", "HVR", "CDC", "Replication"]
+                    },
+                    {
+                      "fileName": "IICS File Ingestion Example Code.md",
+                      "displayName": "IICS File Ingestion Example Code",
+                      "tags": ["Snowflake", "Ingestion", "Acquisition", "FILE"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Data Movement",
+                  "files": [
+                    {
+                      "fileName": "Integration to Consumption.md",
+                      "displayName": "Integration->Consumption",
+                      "tags": [
+                        "Snowflake",
+                        "Data",
+                        "Movement",
+                        "Integration",
+                        "Consumption"
+                      ]
+                    },
+                    {
+                      "fileName": "Landing to Integration.md",
+                      "displayName": "Landing->Integration",
+                      "tags": ["Snowflake", "Data", "Movement", "Integration"]
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "Security",
+              "files": [
+                {
+                  "fileName": "Oauth.md",
+                  "displayName": "OAuth",
+                  "tags": ["Snowflake", "OAuth", "Security"]
+                },
+                {
+                  "fileName": "SSO.md",
+                  "displayName": "SSO",
+                  "tags": ["Snowflake", "SSO", "Signon", "Security"]
+                },
+                {
+                  "fileName": "Security Model.md",
+                  "displayName": "Security Model",
+                  "tags": ["Snowflake", "Security"]
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "images",
+                  "files": [
+                    {
+                      "fileName": "Authorization.png",
+                      "displayName": "Authorization"
+                    },
+                    {
+                      "fileName": "accessRoles.png",
+                      "displayName": "accessRoles"
+                    },
+                    {
+                      "fileName": "functionalRoles.png",
+                      "displayName": "functionalRoles"
+                    },
+                    {
+                      "fileName": "snowflakesecuritymodel.png",
+                      "displayName": "snowflakesecuritymodel"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "directoryName": "images",
+          "files": [
+            {
+              "fileName": "ComingSoon.jpg",
+              "displayName": "ComingSoon"
+            },
+            {
+              "fileName": "DataLifeCycle.png",
+              "displayName": "DataLifeCycle"
+            },
+            {
+              "fileName": "KDPDatabaseZones.png",
+              "displayName": "KDPDatabaseZones"
+            },
+            {
+              "fileName": "PowerBISnowflake1.png",
+              "displayName": "PowerBISnowflake1"
+            },
+            {
+              "fileName": "PowerBISnowflake2.png",
+              "displayName": "PowerBISnowflake2"
+            },
+            {
+              "fileName": "PowerBISnowflake3.png",
+              "displayName": "PowerBISnowflake3"
+            },
+            {
+              "fileName": "PowerBISnowflake4.png",
+              "displayName": "PowerBISnowflake4"
+            },
+            {
+              "fileName": "PowerBISnowflake5.png",
+              "displayName": "PowerBISnowflake5"
+            },
+            {
+              "fileName": "snowflake-architecture.png",
+              "displayName": "snowflake-architecture"
+            },
+            {
+              "fileName": "snowsightlogin.png",
+              "displayName": "snowsightlogin"
+            }
+          ],
+          "subDirectories": []
+        }
+      ]
+    },
+    {
+      "directoryName": "development",
+      "files": [
+        {
+          "fileName": "Contribute To Kiewit Dev.md",
+          "displayName": "Contribute to Kiewit.dev"
+        },
+        {
+          "fileName": "Useful Links.md",
+          "displayName": "Useful Links"
+        },
+        {
+          "fileName": "Using Kiewit Dev.md",
+          "displayName": "Using Kiewit Dev",
+          "tags": [
+            "Current-Status: Draft",
+            "Document-Type: Descriptive",
+            "Document-Type: Prescriptive"
+          ]
+        },
+        {
+          "fileName": "config.json",
+          "displayName": "config"
+        },
+        {
+          "fileName": "index.md",
+          "displayName": "Development Process"
+        }
+      ],
+      "subDirectories": [
+        {
+          "directoryName": "Community",
+          "files": [],
+          "subDirectories": [
+            {
+              "directoryName": "Enterprise Software Architecture",
+              "files": [
+                {
+                  "fileName": "2024.md",
+                  "displayName": "Enterprise Software Architecture 2024"
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Software Architecture CoP",
+              "files": [
+                {
+                  "fileName": "2021.md",
+                  "displayName": "Software Architecture CoP 2021"
+                },
+                {
+                  "fileName": "2022.md",
+                  "displayName": "Software Architecture CoP 2022"
+                },
+                {
+                  "fileName": "2023.md",
+                  "displayName": "Software Architecture CoP 2023"
+                },
+                {
+                  "fileName": "2024.md",
+                  "displayName": "Software Architecture CoP 2024"
+                },
+                {
+                  "fileName": "2025.md",
+                  "displayName": "Software Architecture CoP 2025"
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "images",
+                  "files": [
+                    {
+                      "fileName": "Trivia20230131.png",
+                      "displayName": "Trivia20230131"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "Software Engineering CoP",
+              "files": [
+                {
+                  "fileName": "2023.md",
+                  "displayName": "Software Engineering CoP 2023"
+                },
+                {
+                  "fileName": "2024.md",
+                  "displayName": "Software Engineering CoP 2024"
+                },
+                {
+                  "fileName": "2025.md",
+                  "displayName": "Software Engineering CoP 2025"
+                },
+                {
+                  "fileName": "Vision and Purpose.md",
+                  "displayName": "Vision and Purpose"
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "Deployment",
+          "files": [
+            {
+              "fileName": "Change_Management.md",
+              "displayName": "Technical Change Management",
+              "tags": [
+                "change management",
+                "Document-Type: Prescriptive",
+                "Current-Status: Draft"
+              ]
+            },
+            {
+              "fileName": "Database Migrations.md",
+              "displayName": "Database Migrations"
+            },
+            {
+              "fileName": "Environments.md",
+              "displayName": "Environments",
+              "tags": [
+                "policy",
+                "standard",
+                "deploy",
+                "deployment",
+                "environment",
+                "Azure DevOps",
+                "AzDO",
+                "ADO"
+              ]
+            },
+            {
+              "fileName": "Infrastructure as Code.md",
+              "displayName": "Infrastructure as Code",
+              "tags": ["IAC", "Policies"]
+            },
+            {
+              "fileName": "Manifest.md",
+              "displayName": "Dev Platform Manifest",
+              "tags": ["Developer Platform", "IaC", "Automation"]
+            },
+            {
+              "fileName": "Software Runtime Environments.md",
+              "displayName": "Software Runtime Environments",
+              "tags": [
+                "Platforms",
+                "Web Browsers",
+                "Web Servers",
+                "Desktop",
+                "Laptop",
+                "Mobile",
+                "Tablet",
+                "Responsive Web Pages",
+                "Progressive Web Applications",
+                "Native Mobile Applications"
+              ]
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Azure",
+              "files": [
+                {
+                  "fileName": "App Service Easy Auth.md",
+                  "displayName": "App Service Easy Auth"
+                },
+                {
+                  "fileName": "Azure Functions.md",
+                  "displayName": "Azure Functions"
+                },
+                {
+                  "fileName": "Configuring a Test Entra ID Tenant.md",
+                  "displayName": "Configuring a Test Entra ID Tenant",
+                  "tags": [
+                    "Active Directory",
+                    "Entra ID",
+                    "Tenant",
+                    "Subscription",
+                    "Visaul studio subscription"
+                  ]
+                },
+                {
+                  "fileName": "Messaging Techniques.md",
+                  "displayName": "Messaging Techniques"
+                },
+                {
+                  "fileName": "Requesting an Azure Sandbox.md",
+                  "displayName": "Requesting an Azure Sandbox"
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "images",
+                  "files": [
+                    {
+                      "fileName": "ChangeDirectory.png",
+                      "displayName": "ChangeDirectory"
+                    },
+                    {
+                      "fileName": "ChangeDirectory2.png",
+                      "displayName": "ChangeDirectory2"
+                    },
+                    {
+                      "fileName": "CreateTenantButton.png",
+                      "displayName": "CreateTenantButton"
+                    },
+                    {
+                      "fileName": "ManageTenants.png",
+                      "displayName": "ManageTenants"
+                    },
+                    {
+                      "fileName": "SwitchDirectory.png",
+                      "displayName": "SwitchDirectory"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "directoryName": "Design",
+          "files": [
+            {
+              "fileName": "Documentation.md",
+              "displayName": "Essential Documentation",
+              "tags": ["Technology Radar", "Operating Procedure"]
+            },
+            {
+              "fileName": "IDesign.md",
+              "displayName": "IDesign"
+            },
+            {
+              "fileName": "Non-Functional_Requirements.md",
+              "displayName": "Non Functional Requirements",
+              "tags": ["Technology Radar", "Operating Procedure"]
+            },
+            {
+              "fileName": "SOLID Principles.md",
+              "displayName": "SOLID Principles",
+              "tags": ["Principles"]
+            },
+            {
+              "fileName": "Software -Ilities.md",
+              "displayName": "Software -ilities",
+              "tags": ["Patterns", "Standards", "Patterns"]
+            },
+            {
+              "fileName": "Static vs Dynamic Languages.md",
+              "displayName": "Static vs Dynamic Languages"
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Software Patterns",
+              "files": [
+                {
+                  "fileName": "API-Documentation.md",
+                  "displayName": "API Documentation",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Aspect Oriented Programming.md",
+                  "displayName": "Aspect Oriented Programming",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Async.md",
+                  "displayName": "Async",
+                  "tags": ["Async", "Await", "Patterns"]
+                },
+                {
+                  "fileName": "Authentication.md",
+                  "displayName": "Authentication",
+                  "tags": ["Security", "OAuth", "API", "Bootstrap", "Patterns"]
+                },
+                {
+                  "fileName": "Authorization.md",
+                  "displayName": "Authorization",
+                  "tags": [
+                    "Security",
+                    "OAuth",
+                    "API",
+                    "Bootstrap",
+                    "Patterns",
+                    "RBAC",
+                    "ABAC",
+                    "ReBAC"
+                  ]
+                },
+                {
+                  "fileName": "Batch-Processing.md",
+                  "displayName": "Batch Processing",
+                  "tags": ["Patterns", "Batch Processing"]
+                },
+                {
+                  "fileName": "Blob-Storage.md",
+                  "displayName": "Blob Storage",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Caching.md",
+                  "displayName": "Caching",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Configuration.md",
+                  "displayName": "Configuration",
+                  "tags": ["Patterns", "Configuration"]
+                },
+                {
+                  "fileName": "Database-Access.md",
+                  "displayName": "Database Access",
+                  "tags": [
+                    "Patterns",
+                    "Data",
+                    "Database Access",
+                    "Entity Framework"
+                  ]
+                },
+                {
+                  "fileName": "Document-Classification.md",
+                  "displayName": "Document Classification",
+                  "tags": [
+                    "Patterns",
+                    "Data",
+                    "Data Classification",
+                    "Document Classification"
+                  ]
+                },
+                {
+                  "fileName": "Document-Management.md",
+                  "displayName": "Document Management",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Dynamic Runtime Code Execution.md",
+                  "displayName": "Dynamic Runtime Code Execution",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Environment-Detection.md",
+                  "displayName": "Environment Detection",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Event-Streaming.md",
+                  "displayName": "Event Streaming",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Exception-Handling.md",
+                  "displayName": "Exception Handling",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Feature-Flagging.md",
+                  "displayName": "Feature Flagging",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Health-Checks.md",
+                  "displayName": "Health Checks",
+                  "tags": [
+                    "Patterns",
+                    "Document-Type: Authoritative",
+                    "Current-Status: Draft"
+                  ]
+                },
+                {
+                  "fileName": "Input-Sanitization.md",
+                  "displayName": "Input Sanitization",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Integration.md",
+                  "displayName": "Integration",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Large-Database-Inserts.md",
+                  "displayName": "Large Database Inserts",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Logging-and-Analytics.md",
+                  "displayName": "Logging and Analytics",
+                  "tags": ["Patterns", "Logging", "Analytics"]
+                },
+                {
+                  "fileName": "Long-running-processes.md",
+                  "displayName": "Long Running Processes",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Messaging.md",
+                  "displayName": "Messaging",
+                  "tags": ["Patterns", "Messaging"]
+                },
+                {
+                  "fileName": "Monitoring.md",
+                  "displayName": "Monitoring",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Notification.md",
+                  "displayName": "Notification",
+                  "tags": ["Patterns", "Notification"]
+                },
+                {
+                  "fileName": "Optical-Character-Recognition.md",
+                  "displayName": "Optical Character Recognition",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Patterns.md",
+                  "displayName": "Software Patterns",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Print-PDF-Export.md",
+                  "displayName": "Print, PDF, and Export",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Realtime-Web-Communication.md",
+                  "displayName": "Realtime Web Communication",
+                  "tags": ["Patterns", "Realtime Web Communication"]
+                },
+                {
+                  "fileName": "Secrets.md",
+                  "displayName": "Secrets",
+                  "tags": [
+                    "Patterns",
+                    "Secret",
+                    "Secrets",
+                    "Encryption",
+                    "Decryption",
+                    "Security"
+                  ]
+                },
+                {
+                  "fileName": "Serialization.md",
+                  "displayName": "Serialization",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "SharePoint.md",
+                  "displayName": "SharePoint"
+                },
+                {
+                  "fileName": "Specification.md",
+                  "displayName": "Specification",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Spreadsheet-Data-Processing.md",
+                  "displayName": "Spreadsheet Data Processing",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Testing.md",
+                  "displayName": "Testing",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "Web-Hooks.md",
+                  "displayName": "Web Hooks",
+                  "tags": ["Patterns"]
+                },
+                {
+                  "fileName": "ui-state-management.md",
+                  "displayName": "UI State Management",
+                  "tags": ["Patterns", "UI", "State Management"]
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "images",
+                  "files": [
+                    {
+                      "fileName": "SoftwarePatternComponents.png",
+                      "displayName": "SoftwarePatternComponents"
+                    },
+                    {
+                      "fileName": "permit-logo.svg",
+                      "displayName": "permit-logo"
+                    }
+                  ],
+                  "subDirectories": [
+                    {
+                      "directoryName": "RealtimeWebComm",
+                      "files": [
+                        {
+                          "fileName": "IDesignWithSignalR.png",
+                          "displayName": "IDesignWithSignalR"
+                        },
+                        {
+                          "fileName": "PollingDiagram.png",
+                          "displayName": "PollingDiagram"
+                        },
+                        {
+                          "fileName": "SignalRService.png",
+                          "displayName": "SignalRService"
+                        },
+                        {
+                          "fileName": "SignalRServiceWithAzureCacheforRedisAsBackplane.png",
+                          "displayName": "SignalRServiceWithAzureCacheforRedisAsBackplane"
+                        },
+                        {
+                          "fileName": "SingleHub.png",
+                          "displayName": "SingleHub"
+                        }
+                      ],
+                      "subDirectories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "directoryName": "images",
+              "files": [
+                {
+                  "fileName": "IDesignComponents.png",
+                  "displayName": "IDesignComponents"
+                },
+                {
+                  "fileName": "IDesignMethodTaxonomy.png",
+                  "displayName": "IDesignMethodTaxonomy"
+                },
+                {
+                  "fileName": "IDesignStepsAndRoles.png",
+                  "displayName": "IDesignStepsAndRoles"
+                },
+                {
+                  "fileName": "NumberOfServices.PNG",
+                  "displayName": "NumberOfServices"
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "Development",
+          "files": [
+            {
+              "fileName": "API Principles.md",
+              "displayName": "API Principles",
+              "tags": ["API", "t-rex", "principles"]
+            },
+            {
+              "fileName": "About.md",
+              "displayName": "About"
+            },
+            {
+              "fileName": "Azure DevOps.md",
+              "displayName": "Azure DevOps",
+              "tags": ["Azure DevOps", "Description", "About"]
+            },
+            {
+              "fileName": "Code_Review_Checklist.md",
+              "displayName": "Code Review Checklist",
+              "tags": ["Code Review", "Validation"]
+            },
+            {
+              "fileName": "Container Images.md",
+              "displayName": "Container Images",
+              "tags": ["Containers", "Docker", "Images"]
+            },
+            {
+              "fileName": "Core API.md",
+              "displayName": "Core API",
+              "tags": ["Core API", "Core", "API"]
+            },
+            {
+              "fileName": "Development Framework Policies.md",
+              "displayName": "Development Framework Policies"
+            },
+            {
+              "fileName": "Development KPIs.md",
+              "displayName": "Software Development KPIs"
+            },
+            {
+              "fileName": "General Development Guidance.md",
+              "displayName": "General Development Guidance",
+              "tags": ["Guidance"]
+            },
+            {
+              "fileName": "Inversion_Of_Control.md",
+              "displayName": "Inversion of Control (IoC)",
+              "tags": [
+                ".NET",
+                "Libraries",
+                "Policies",
+                "IoC",
+                "Dependency Injection",
+                "Service Locator"
+              ]
+            },
+            {
+              "fileName": "Package Repositories.md",
+              "displayName": "Packages Repositories",
+              "tags": ["Libraries", "Policies", "Packages", "Repositories"]
+            },
+            {
+              "fileName": "Shared_Libraries.md",
+              "displayName": "Shared Libraries",
+              "tags": ["Libraries", "Policies"]
+            },
+            {
+              "fileName": "Source Code.md",
+              "displayName": "Source Code",
+              "tags": ["Source Code", "Code", "Policies"]
+            },
+            {
+              "fileName": "certs.zip",
+              "displayName": "certs"
+            },
+            {
+              "fileName": "zscaler.md",
+              "displayName": "Zscaler",
+              "tags": ["Zscaler"]
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Browser Development",
+              "files": [
+                {
+                  "fileName": "index.md",
+                  "displayName": "Welcome",
+                  "tags": ["react"]
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "HowTo",
+                  "files": [
+                    {
+                      "fileName": "NPM7Issues.md",
+                      "displayName": "NPM 7 Issues"
+                    },
+                    {
+                      "fileName": "NPM_Resolutions.md",
+                      "displayName": "NPM Resolutions",
+                      "tags": ["npm", "howto", "resolutions"]
+                    },
+                    {
+                      "fileName": "ReactAndAngular.md",
+                      "displayName": "React And Angular",
+                      "tags": ["react", "angular"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Reference",
+                  "files": [
+                    {
+                      "fileName": "Libraries and Components Usage.md",
+                      "displayName": "Library Usage"
+                    },
+                    {
+                      "fileName": "Supported Browsers.md",
+                      "displayName": "Supported Browsers"
+                    },
+                    {
+                      "fileName": "Testing.md",
+                      "displayName": "Testing",
+                      "tags": ["react", "testing", "draft"]
+                    }
+                  ],
+                  "subDirectories": [
+                    {
+                      "directoryName": "Kiewit Tools and Libraries",
+                      "files": [
+                        {
+                          "fileName": "Contributing to KCS React.md",
+                          "displayName": "Contributing to KCS React"
+                        },
+                        {
+                          "fileName": "Foundation Components.md",
+                          "displayName": "Foundation: KTG Design System",
+                          "tags": [
+                            "react",
+                            "foundation",
+                            "design system",
+                            "component",
+                            "library"
+                          ]
+                        },
+                        {
+                          "fileName": "KCS React Analytics Adapters.md",
+                          "displayName": "KCS React Analytics Adapters"
+                        },
+                        {
+                          "fileName": "KCS React Analytics.md",
+                          "displayName": "KCS React Analytics"
+                        },
+                        {
+                          "fileName": "KCS React Auth.md",
+                          "displayName": "KCS React Auth"
+                        },
+                        {
+                          "fileName": "KCS React Boilerplate.md",
+                          "displayName": "KCS React Boilerplate"
+                        },
+                        {
+                          "fileName": "KCS React Config.md",
+                          "displayName": "KCS React Config"
+                        },
+                        {
+                          "fileName": "KCSStructure.png",
+                          "displayName": "KCSStructure"
+                        },
+                        {
+                          "fileName": "Kiewit NPM Server.md",
+                          "displayName": "Kiewit NPM Server"
+                        },
+                        {
+                          "fileName": "LernaOutput.png",
+                          "displayName": "LernaOutput"
+                        }
+                      ],
+                      "subDirectories": [
+                        {
+                          "directoryName": "Deprecated",
+                          "files": [
+                            {
+                              "fileName": "About.md",
+                              "displayName": "About"
+                            },
+                            {
+                              "fileName": "Create-Build-Configure.png",
+                              "displayName": "Create-Build-Configure"
+                            },
+                            {
+                              "fileName": "Create_New_Project.PNG",
+                              "displayName": "Create_New_Project"
+                            },
+                            {
+                              "fileName": "Foundation Auth.md",
+                              "displayName": "Foundation Auth"
+                            },
+                            {
+                              "fileName": "Foundation Boilerplate.md",
+                              "displayName": "Foundation Boilerplate"
+                            },
+                            {
+                              "fileName": "Foundation Config.md",
+                              "displayName": "Foundation Config",
+                              "tags": ["react", "config", "HowTo"]
+                            }
+                          ],
+                          "subDirectories": []
+                        }
+                      ]
+                    },
+                    {
+                      "directoryName": "Other Tools and Libraries",
+                      "files": [
+                        {
+                          "fileName": "Authorization_With_CASL.md",
+                          "displayName": "Authorization With CASL.js",
+                          "tags": ["react", "authorization", "casl"]
+                        },
+                        {
+                          "fileName": "FullStory.md",
+                          "displayName": "FullStory",
+                          "tags": ["fullstory", "howto"]
+                        },
+                        {
+                          "fileName": "Make_an_API_Call_with_Axios.md",
+                          "displayName": "Axios",
+                          "tags": ["react", "howto", "axios"]
+                        }
+                      ],
+                      "subDirectories": [
+                        {
+                          "directoryName": "Formik",
+                          "files": [
+                            {
+                              "fileName": ".gitkeep",
+                              "displayName": ".gitkeep"
+                            }
+                          ],
+                          "subDirectories": []
+                        },
+                        {
+                          "directoryName": "Redux",
+                          "files": [
+                            {
+                              "fileName": "Redux.Overview.md",
+                              "displayName": "Redux.Overview"
+                            },
+                            {
+                              "fileName": "Redux.Testing.md",
+                              "displayName": "Redux.Testing"
+                            },
+                            {
+                              "fileName": "Redux.Thunks.md",
+                              "displayName": "Redux.Thunks"
+                            }
+                          ],
+                          "subDirectories": [
+                            {
+                              "directoryName": ".attachments",
+                              "files": [
+                                {
+                                  "fileName": "redux-flow2.gif",
+                                  "displayName": "redux-flow2"
+                                },
+                                {
+                                  "fileName": "slices.png",
+                                  "displayName": "slices"
+                                },
+                                {
+                                  "fileName": "slices_filesystem.png",
+                                  "displayName": "slices_filesystem"
+                                },
+                                {
+                                  "fileName": "slices_redux.png",
+                                  "displayName": "slices_redux"
+                                },
+                                {
+                                  "fileName": "the_store.png",
+                                  "displayName": "the_store"
+                                }
+                              ],
+                              "subDirectories": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "directoryName": "Tutorials",
+                  "files": [
+                    {
+                      "fileName": "Create a New React Project.md",
+                      "displayName": "Create a new React Project",
+                      "tags": ["react", "tutorial"]
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "Development Containers",
+              "files": [
+                {
+                  "fileName": "index.md",
+                  "displayName": "Developer Container Images",
+                  "tags": ["docker", "container", "image"]
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "Low Code and No Code",
+              "files": [
+                {
+                  "fileName": "config.json",
+                  "displayName": "config"
+                },
+                {
+                  "fileName": "index.md",
+                  "displayName": "LowCode Index"
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "Formstack",
+                  "files": [
+                    {
+                      "fileName": "Developing.md",
+                      "displayName": "Developing with Formstack"
+                    },
+                    {
+                      "fileName": "EmbededCode.png",
+                      "displayName": "EmbededCode"
+                    },
+                    {
+                      "fileName": "FieldSpecificEditor.png",
+                      "displayName": "FieldSpecificEditor"
+                    },
+                    {
+                      "fileName": "Tool Tip Plugin.md",
+                      "displayName": "Tool Tip Plugin"
+                    },
+                    {
+                      "fileName": "ToolTipExample.png",
+                      "displayName": "ToolTipExample"
+                    },
+                    {
+                      "fileName": "ToolTipOption.png",
+                      "displayName": "ToolTipOption"
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "Power Platform",
+                  "files": [],
+                  "subDirectories": [
+                    {
+                      "directoryName": "HowTo",
+                      "files": [
+                        {
+                          "fileName": "Update PowerBI From PowerShell.md",
+                          "displayName": "Update PowerBI from Python"
+                        }
+                      ],
+                      "subDirectories": [
+                        {
+                          "directoryName": "Update_PowerBI_From_PowerShell_IMG",
+                          "files": [
+                            {
+                              "fileName": "AdminConfig.png",
+                              "displayName": "AdminConfig"
+                            },
+                            {
+                              "fileName": "AdvancedSettings.png",
+                              "displayName": "AdvancedSettings"
+                            },
+                            {
+                              "fileName": "AppPermissions.png",
+                              "displayName": "AppPermissions"
+                            },
+                            {
+                              "fileName": "AppRegistration.png",
+                              "displayName": "AppRegistration"
+                            },
+                            {
+                              "fileName": "KDSDataScheduler.png",
+                              "displayName": "KDSDataScheduler"
+                            },
+                            {
+                              "fileName": "PowerBIPython.docx",
+                              "displayName": "PowerBIPython"
+                            },
+                            {
+                              "fileName": "Power_BI_Collibra_POC.png",
+                              "displayName": "Power_BI_Collibra_POC"
+                            },
+                            {
+                              "fileName": "SecuritySettings.png",
+                              "displayName": "SecuritySettings"
+                            },
+                            {
+                              "fileName": "WorkspaceConfig.png",
+                              "displayName": "WorkspaceConfig"
+                            }
+                          ],
+                          "subDirectories": []
+                        }
+                      ]
+                    },
+                    {
+                      "directoryName": "Reference Documentation",
+                      "files": [
+                        {
+                          "fileName": "Permissions Model.md",
+                          "displayName": "Permissions Model"
+                        },
+                        {
+                          "fileName": "Power Platform Dashboard.md",
+                          "displayName": "Power Platform Dashboard"
+                        }
+                      ],
+                      "subDirectories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "directoryName": "NET",
+              "files": [
+                {
+                  "fileName": "Auto_Mapper.md",
+                  "displayName": "Auto Mapper",
+                  "tags": [".NET Core", "DTO", "Mapping", "Entity"]
+                },
+                {
+                  "fileName": "Code_Analysis.md",
+                  "displayName": "Code Analysis",
+                  "tags": [
+                    ".NET Core",
+                    "Code Analysis",
+                    "Policies",
+                    "Software Engineering Template"
+                  ]
+                },
+                {
+                  "fileName": "Configuration.md",
+                  "displayName": "Configuration",
+                  "tags": [
+                    ".NET Core",
+                    "Configuration",
+                    "Software Engineering Template"
+                  ]
+                },
+                {
+                  "fileName": "Function_Apps.md",
+                  "displayName": "Azure Function Apps",
+                  "tags": [
+                    "Azure",
+                    "Functions",
+                    "Function App",
+                    "Patterns",
+                    "Practices"
+                  ]
+                },
+                {
+                  "fileName": "Getting Started with NET.md",
+                  "displayName": "Getting Started with .NET",
+                  "tags": ["Getting Started", "Setup", "How-to"]
+                },
+                {
+                  "fileName": "Handling Exceptions.md",
+                  "displayName": "Handling Exception",
+                  "tags": ["Exceptions", "Handling Exceptions"]
+                },
+                {
+                  "fileName": "Hosting.md",
+                  "displayName": "Hosting",
+                  "tags": ["Hosting"]
+                },
+                {
+                  "fileName": "Logging.md",
+                  "displayName": "Logging",
+                  "tags": [".NET Core", "Logging", "Policies"]
+                },
+                {
+                  "fileName": "NuGet.md",
+                  "displayName": "NuGet",
+                  "tags": [
+                    ".NET",
+                    "Libraries",
+                    "Policies",
+                    "NuGet",
+                    "Shared Services",
+                    "S"
+                  ]
+                },
+                {
+                  "fileName": "Software_Engineering_Template.md",
+                  "displayName": "Software Engineering Template",
+                  "tags": ["Template", "Engineering", "Standards"]
+                },
+                {
+                  "fileName": "index.md",
+                  "displayName": "What is .NET"
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "Data Access",
+                  "files": [
+                    {
+                      "fileName": "SQL_Database_Access.md",
+                      "displayName": "SQL Database Access",
+                      "tags": [
+                        ".NET Core",
+                        "Data Access",
+                        "SQL Database",
+                        "Entity Framework",
+                        "Policies",
+                        "Software Engineering Template"
+                      ]
+                    },
+                    {
+                      "fileName": "Snowflake_Data_Access.md",
+                      "displayName": "Snowflake Data Access",
+                      "tags": [
+                        ".NET Core",
+                        "Data Access",
+                        "Snowflake",
+                        "Policies",
+                        "Software Engineering Template"
+                      ]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "images",
+                  "files": [
+                    {
+                      "fileName": ".NET Architecture.svg",
+                      "displayName": ".NET Architecture"
+                    },
+                    {
+                      "fileName": "ApprovalCheckBox.png",
+                      "displayName": "ApprovalCheckBox"
+                    },
+                    {
+                      "fileName": "ApprovalSettingMessage.png",
+                      "displayName": "ApprovalSettingMessage"
+                    },
+                    {
+                      "fileName": "AutoMapper.png",
+                      "displayName": "AutoMapper"
+                    },
+                    {
+                      "fileName": "CreateRelease.png",
+                      "displayName": "CreateRelease"
+                    },
+                    {
+                      "fileName": "IDesignMethodTaxonomy.png",
+                      "displayName": "IDesignMethodTaxonomy"
+                    },
+                    {
+                      "fileName": "NetArch.png",
+                      "displayName": "NetArch"
+                    },
+                    {
+                      "fileName": "NumberOfServices.PNG",
+                      "displayName": "NumberOfServices"
+                    },
+                    {
+                      "fileName": "PreDeploymentConditions.png",
+                      "displayName": "PreDeploymentConditions"
+                    },
+                    {
+                      "fileName": "TemplateList.png",
+                      "displayName": "TemplateList"
+                    },
+                    {
+                      "fileName": "VisualStudioNuGetSetup.png",
+                      "displayName": "VisualStudioNuGetSetup"
+                    },
+                    {
+                      "fileName": "WebAppIdentity.png",
+                      "displayName": "WebAppIdentity"
+                    },
+                    {
+                      "fileName": "dotnetCoreLogo.jpg",
+                      "displayName": "dotnetCoreLogo"
+                    },
+                    {
+                      "fileName": "install_se_template.png",
+                      "displayName": "install_se_template"
+                    },
+                    {
+                      "fileName": "snowflake-OAUTH-AppReg.png",
+                      "displayName": "snowflake-OAUTH-AppReg"
+                    },
+                    {
+                      "fileName": "uninstall_se_template.png",
+                      "displayName": "uninstall_se_template"
+                    }
+                  ],
+                  "subDirectories": [
+                    {
+                      "directoryName": "Configuration",
+                      "files": [
+                        {
+                          "fileName": "KeyVault1.jpg",
+                          "displayName": "KeyVault1"
+                        },
+                        {
+                          "fileName": "KeyVault2.jpg",
+                          "displayName": "KeyVault2"
+                        },
+                        {
+                          "fileName": "KeyVault3.jpg",
+                          "displayName": "KeyVault3"
+                        },
+                        {
+                          "fileName": "LinkVariables.jpg",
+                          "displayName": "LinkVariables"
+                        },
+                        {
+                          "fileName": "ManageVariableGroups.jpg",
+                          "displayName": "ManageVariableGroups"
+                        },
+                        {
+                          "fileName": "VairablesFromKeyVault.jpg",
+                          "displayName": "VairablesFromKeyVault"
+                        },
+                        {
+                          "fileName": "VariableGroups.jpg",
+                          "displayName": "VariableGroups"
+                        },
+                        {
+                          "fileName": "VariableGroups_Edit.jpg",
+                          "displayName": "VariableGroups_Edit"
+                        }
+                      ],
+                      "subDirectories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "directoryName": "Python",
+              "files": [
+                {
+                  "fileName": "DeployToAzure.md",
+                  "displayName": "Deploy Python To Azure",
+                  "tags": ["Documentation", "Python", "Azure", "Azure DevOps"]
+                },
+                {
+                  "fileName": "Documentation.md",
+                  "displayName": "Documentation",
+                  "tags": ["Documentation", "Python"]
+                },
+                {
+                  "fileName": "Machine Learning.md",
+                  "displayName": "Machine Learning"
+                },
+                {
+                  "fileName": "config.json",
+                  "displayName": "config"
+                },
+                {
+                  "fileName": "index.md",
+                  "displayName": "What is Python?"
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "Data Access",
+                  "files": [
+                    {
+                      "fileName": "python_to_snowflake.md",
+                      "displayName": "Snowflake Data Access: Python",
+                      "tags": [
+                        "Python",
+                        "Data Access",
+                        "Snowflake",
+                        "Documentation"
+                      ]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "images",
+                  "files": [
+                    {
+                      "fileName": "AzureConfigureYourPipeline.png",
+                      "displayName": "AzureConfigureYourPipeline"
+                    },
+                    {
+                      "fileName": "AzureDeploymentSlots.png",
+                      "displayName": "AzureDeploymentSlots"
+                    },
+                    {
+                      "fileName": "AzureNewPipeline.png",
+                      "displayName": "AzureNewPipeline"
+                    },
+                    {
+                      "fileName": "AzureResume.png",
+                      "displayName": "AzureResume"
+                    },
+                    {
+                      "fileName": "AzureStages.png",
+                      "displayName": "AzureStages"
+                    },
+                    {
+                      "fileName": "AzureWhereIsYourCode.png",
+                      "displayName": "AzureWhereIsYourCode"
+                    },
+                    {
+                      "fileName": "DataScienceLifecycle.png",
+                      "displayName": "DataScienceLifecycle"
+                    },
+                    {
+                      "fileName": "Python-logo-notext.svg",
+                      "displayName": "Python-logo-notext"
+                    },
+                    {
+                      "fileName": "azure_check.png",
+                      "displayName": "azure_check"
+                    },
+                    {
+                      "fileName": "keyvault.PNG",
+                      "displayName": "keyvault"
+                    },
+                    {
+                      "fileName": "snowflake-OAUTH-AppReg.png",
+                      "displayName": "snowflake-OAUTH-AppReg"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "Secure Development",
+              "files": [
+                {
+                  "fileName": "AuthenticationAuthorization.md",
+                  "displayName": "Authentication vs Authorization",
+                  "tags": ["Security", "OAuth"]
+                },
+                {
+                  "fileName": "File_Uploads.md",
+                  "displayName": "File Uploads",
+                  "tags": [".NET Core", "Uploads", "Standards"]
+                },
+                {
+                  "fileName": "Methods for Generating Tokens.md",
+                  "displayName": "Methods for Generating OAuth Tokens",
+                  "tags": ["OAuth", "Access Token", "Secure"]
+                },
+                {
+                  "fileName": "Microsoft Secure Coding Guidelines.md",
+                  "displayName": "Microsoft Secure Coding Guidelines",
+                  "tags": [".NET Core", ".NET", "Secure", "Coding"]
+                },
+                {
+                  "fileName": "OAuth Requirements.md",
+                  "displayName": "OAuth Requirements",
+                  "tags": ["Security", "KTSB", "Auth"]
+                },
+                {
+                  "fileName": "Secure_Development.md",
+                  "displayName": "Technology Operating Procedure - Secure Development",
+                  "tags": ["operating procedures", "Secure Development"]
+                },
+                {
+                  "fileName": "Security_Requirements.md",
+                  "displayName": "Security Requirements",
+                  "tags": ["security"]
+                },
+                {
+                  "fileName": "Using Trusted Security On Linux.md",
+                  "displayName": "Using Trusted Security on Linux",
+                  "tags": [
+                    "Kerberos",
+                    "Data Access",
+                    "ODS",
+                    "Windows Authentication",
+                    "Documentation"
+                  ]
+                },
+                {
+                  "fileName": "index.md",
+                  "displayName": "Secure Development",
+                  "tags": ["Security", "Secure Development"]
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "OWASP",
+                  "files": [
+                    {
+                      "fileName": "Using_Components_with_Known_Vulnerabilities.md",
+                      "displayName": "OWASP Top 10 - Using Components with Known Vulnerabilities",
+                      "tags": ["OWASP", "Open Source", "Application Security"]
+                    }
+                  ],
+                  "subDirectories": [
+                    {
+                      "directoryName": "images",
+                      "files": [
+                        {
+                          "fileName": "CheckMarxOSAOutput.png",
+                          "displayName": "CheckMarxOSAOutput"
+                        },
+                        {
+                          "fileName": "NPMAuditOutput.png",
+                          "displayName": "NPMAuditOutput"
+                        }
+                      ],
+                      "subDirectories": []
+                    }
+                  ]
+                },
+                {
+                  "directoryName": "Security Analysis Tools",
+                  "files": [
+                    {
+                      "fileName": "Dynamic_Application_Security_Testing_Tool.md",
+                      "displayName": "Dynamic Application Security Testing (DAST)",
+                      "tags": ["Dynamic Analysis", "Security"]
+                    },
+                    {
+                      "fileName": "Interactive_Application_Security_Testing_Tool.md",
+                      "displayName": "Interactive Application Security Testing (IAST)",
+                      "tags": ["Interactive Analysis", "Security"]
+                    },
+                    {
+                      "fileName": "Static_Application_Security_Testing_Tool.md",
+                      "displayName": "Static Application Security Testing (DAST)",
+                      "tags": ["Static Analysis", "Security"]
+                    }
+                  ],
+                  "subDirectories": []
+                },
+                {
+                  "directoryName": "images",
+                  "files": [
+                    {
+                      "fileName": "AuthCodeFlowDiagram.svg",
+                      "displayName": "AuthCodeFlowDiagram"
+                    },
+                    {
+                      "fileName": "ClientCredentialFlowDiagram.svg",
+                      "displayName": "ClientCredentialFlowDiagram"
+                    },
+                    {
+                      "fileName": "CreateAppRegScope.png",
+                      "displayName": "CreateAppRegScope"
+                    },
+                    {
+                      "fileName": "DeviceCodeFlowDiagram.svg",
+                      "displayName": "DeviceCodeFlowDiagram"
+                    },
+                    {
+                      "fileName": "ImplicitFlowDiagram.svg",
+                      "displayName": "ImplicitFlowDiagram"
+                    },
+                    {
+                      "fileName": "OAuth-Debugger-Success.png",
+                      "displayName": "OAuth-Debugger-Success"
+                    },
+                    {
+                      "fileName": "OAuth-Debugger.png",
+                      "displayName": "OAuth-Debugger"
+                    },
+                    {
+                      "fileName": "OnBehalfOfFlowDiagram.png",
+                      "displayName": "OnBehalfOfFlowDiagram"
+                    },
+                    {
+                      "fileName": "SecureProcess.png",
+                      "displayName": "SecureProcess"
+                    }
+                  ],
+                  "subDirectories": []
+                }
+              ]
+            },
+            {
+              "directoryName": "images",
+              "files": [
+                {
+                  "fileName": "Gitflow Diagram.svg",
+                  "displayName": "Gitflow Diagram"
+                },
+                {
+                  "fileName": "Kiewit-EMU-Signup.png",
+                  "displayName": "Kiewit-EMU-Signup"
+                },
+                {
+                  "fileName": "Tokenflow_badapi.png",
+                  "displayName": "Tokenflow_badapi"
+                },
+                {
+                  "fileName": "Tokenflow_goodapi.png",
+                  "displayName": "Tokenflow_goodapi"
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "Test",
+          "files": [
+            {
+              "fileName": "Automated Testing Requirements.md",
+              "displayName": "Automated Testing Requirements",
+              "tags": ["Tosca", "Automated Testing", "Tests"]
+            },
+            {
+              "fileName": "Integration_Tests.md",
+              "displayName": "Integration Testing",
+              "tags": [".NET Core", "Integration Testing", "Tests"]
+            },
+            {
+              "fileName": "Testing.md",
+              "displayName": "Testing",
+              "tags": [".NET Core", "Unit Testing", "Mocking"]
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "images",
+              "files": [
+                {
+                  "fileName": "DataDriveUnitTestResults.PNG",
+                  "displayName": "DataDriveUnitTestResults"
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "Tools",
+          "files": [
+            {
+              "fileName": "Dev Tools.md",
+              "displayName": "Development Tools",
+              "tags": ["Tools", "Development"]
+            },
+            {
+              "fileName": "Github Enterprise.md",
+              "displayName": "GitHub Enterprise",
+              "tags": ["Source Control", "GitHub", "Enterprise", "Copilot"]
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Azure DevOps",
+              "files": [
+                {
+                  "fileName": "Area Paths.md",
+                  "displayName": "Area Paths",
+                  "tags": ["Azure DevOps", "Guidance", "Area Paths", "Policies"]
+                },
+                {
+                  "fileName": "Extensions.md",
+                  "displayName": "Extensions",
+                  "tags": ["Azure DevOps", "Guidance", "Extensions", "Policies"]
+                },
+                {
+                  "fileName": "Index.md",
+                  "displayName": "Policies",
+                  "tags": [
+                    "Azure DevOps",
+                    "Projects",
+                    "Guidance",
+                    "Teams",
+                    "Policies"
+                  ]
+                },
+                {
+                  "fileName": "Iteration Paths.md",
+                  "displayName": "Iteration Paths",
+                  "tags": [
+                    "Azure DevOps",
+                    "Guidance",
+                    "Iteration Paths",
+                    "Policies"
+                  ]
+                },
+                {
+                  "fileName": "Naming Standards.md",
+                  "displayName": "Naming Standards",
+                  "tags": [
+                    "Azure DevOps",
+                    "Guidance",
+                    "Naming Standards",
+                    "Policies"
+                  ]
+                },
+                {
+                  "fileName": "Notifications.md",
+                  "displayName": "Notifications",
+                  "tags": [
+                    "Azure DevOps",
+                    "Guidance",
+                    "Notifications",
+                    "Policies"
+                  ]
+                },
+                {
+                  "fileName": "Organizing Your Work.md",
+                  "displayName": "Organizing Your Work",
+                  "tags": ["Azure DevOps", "Guidance", "Boards", "Policies"]
+                },
+                {
+                  "fileName": "Package Respositories.md",
+                  "displayName": "Package Repositories",
+                  "tags": [
+                    "Azure DevOps",
+                    "Guidance",
+                    "Packages",
+                    "Package Respositories",
+                    "Policies"
+                  ]
+                },
+                {
+                  "fileName": "Pipelines.md",
+                  "displayName": "Pipelines",
+                  "tags": ["Azure DevOps", "Guidance", "Pipelines", "Policies"]
+                },
+                {
+                  "fileName": "Process Template.md",
+                  "displayName": "Process Template",
+                  "tags": [
+                    "Azure DevOps",
+                    "Guidance",
+                    "Process",
+                    "Process Template"
+                  ]
+                },
+                {
+                  "fileName": "Projects.md",
+                  "displayName": "Projects",
+                  "tags": [
+                    "Azure DevOps",
+                    "Projects",
+                    "Guidance",
+                    "Teams",
+                    "Policies"
+                  ]
+                },
+                {
+                  "fileName": "Queries.md",
+                  "displayName": "Queries",
+                  "tags": [
+                    "Azure DevOps",
+                    "Guidance",
+                    "Queries",
+                    "Policies",
+                    "AzDO"
+                  ]
+                },
+                {
+                  "fileName": "Repos.md",
+                  "displayName": "Repos",
+                  "tags": ["Azure DevOps", "Guidance", "Repos", "Policies"]
+                },
+                {
+                  "fileName": "Security.md",
+                  "displayName": "Security",
+                  "tags": ["Azure DevOps", "Guidance", "Security", "Policies"]
+                },
+                {
+                  "fileName": "Tags.md",
+                  "displayName": "Tags",
+                  "tags": ["Azure DevOps", "Guidance", "Tags", "Policies"]
+                },
+                {
+                  "fileName": "Teams.md",
+                  "displayName": "Teams",
+                  "tags": ["Azure DevOps", "Guidance", "Teams", "Policies"]
+                },
+                {
+                  "fileName": "Users and Licensing.md",
+                  "displayName": "Users and Licensing",
+                  "tags": ["Azure DevOps", "Users", "Licensing", "Licenses"]
+                },
+                {
+                  "fileName": "Work Items.md",
+                  "displayName": "Work Items",
+                  "tags": ["Azure DevOps", "Guidance", "Work Items", "Policies"]
+                }
+              ],
+              "subDirectories": [
+                {
+                  "directoryName": "images",
+                  "files": [
+                    {
+                      "fileName": "ApprovalSettingMessage.png",
+                      "displayName": "ApprovalSettingMessage"
+                    },
+                    {
+                      "fileName": "CreateRelease.png",
+                      "displayName": "CreateRelease"
+                    },
+                    {
+                      "fileName": "FeedPermission.png",
+                      "displayName": "FeedPermission"
+                    },
+                    {
+                      "fileName": "PipelineAgentStructure.png",
+                      "displayName": "PipelineAgentStructure"
+                    },
+                    {
+                      "fileName": "Structure.png",
+                      "displayName": "Structure"
+                    },
+                    {
+                      "fileName": "notification-turned-off.png",
+                      "displayName": "notification-turned-off"
+                    },
+                    {
+                      "fileName": "notifications-turned-on.png",
+                      "displayName": "notifications-turned-on"
+                    },
+                    {
+                      "fileName": "oob-notification.png",
+                      "displayName": "oob-notification"
+                    },
+                    {
+                      "fileName": "open-user-settings-profile-preview.png",
+                      "displayName": "open-user-settings-profile-preview"
+                    },
+                    {
+                      "fileName": "user-settings-gear.png",
+                      "displayName": "user-settings-gear"
+                    }
+                  ],
+                  "subDirectories": [
+                    {
+                      "directoryName": "Configuration",
+                      "files": [
+                        {
+                          "fileName": "KeyVault1.jpg",
+                          "displayName": "KeyVault1"
+                        },
+                        {
+                          "fileName": "KeyVault2.jpg",
+                          "displayName": "KeyVault2"
+                        },
+                        {
+                          "fileName": "KeyVault3.jpg",
+                          "displayName": "KeyVault3"
+                        },
+                        {
+                          "fileName": "LinkVariables.jpg",
+                          "displayName": "LinkVariables"
+                        },
+                        {
+                          "fileName": "ManageVariableGroups.jpg",
+                          "displayName": "ManageVariableGroups"
+                        },
+                        {
+                          "fileName": "VairablesFromKeyVault.jpg",
+                          "displayName": "VairablesFromKeyVault"
+                        },
+                        {
+                          "fileName": "VariableGroups.jpg",
+                          "displayName": "VariableGroups"
+                        },
+                        {
+                          "fileName": "VariableGroups_Edit.jpg",
+                          "displayName": "VariableGroups_Edit"
+                        }
+                      ],
+                      "subDirectories": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "directoryName": "Dev Platform",
+              "files": [
+                {
+                  "fileName": "Source Control.md",
+                  "displayName": "Source Control",
+                  "tags": ["Policies"]
+                },
+                {
+                  "fileName": "Todo Application.md",
+                  "displayName": "Todo Application",
+                  "tags": ["Policies", "Todo", "Reference", "Sample"]
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "images",
+          "files": [
+            {
+              "fileName": "CustomDevIcon.png",
+              "displayName": "CustomDevIcon"
+            },
+            {
+              "fileName": "DevProcess.png",
+              "displayName": "DevProcess"
+            },
+            {
+              "fileName": "DevelopmentSpectrum.png",
+              "displayName": "DevelopmentSpectrum"
+            },
+            {
+              "fileName": "UsefulLinks.png",
+              "displayName": "UsefulLinks"
+            }
+          ],
+          "subDirectories": []
+        }
+      ]
+    },
+    {
+      "directoryName": "integration",
+      "files": [
+        {
+          "fileName": "config.json",
+          "displayName": "config"
+        },
+        {
+          "fileName": "datatypes.md",
+          "displayName": "Data Types"
+        },
+        {
+          "fileName": "index.md",
+          "displayName": "Integration"
+        },
+        {
+          "fileName": "logic.md",
+          "displayName": "Business Logic vs Integration Logic"
+        },
+        {
+          "fileName": "personas.md",
+          "displayName": "Personas"
+        }
+      ],
+      "subDirectories": [
+        {
+          "directoryName": "API",
+          "files": [
+            {
+              "fileName": "API Integration.md",
+              "displayName": "API Integration"
+            },
+            {
+              "fileName": "AzureAPI.md",
+              "displayName": "Azure API Manager"
+            },
+            {
+              "fileName": "nginx.md",
+              "displayName": "NGINX",
+              "tags": ["API, Integration, Routing"]
+            },
+            {
+              "fileName": "overview.md",
+              "displayName": "Enterprise API",
+              "tags": ["API, Integration, Mediator, Enterprise API"]
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Enterprise API Design",
+              "files": [
+                {
+                  "fileName": "activity.md",
+                  "displayName": "Activity Process",
+                  "tags": ["API, Integration, Mediator"]
+                },
+                {
+                  "fileName": "experienceapi.md",
+                  "displayName": "Experience API",
+                  "tags": ["API, Integration, Mediator"]
+                },
+                {
+                  "fileName": "index.md",
+                  "displayName": "Design",
+                  "tags": ["API, Integration, Mediator"]
+                },
+                {
+                  "fileName": "systemprocess.md",
+                  "displayName": "System Process",
+                  "tags": ["API, Integration, Mediator"]
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "Patterns",
+          "files": [
+            {
+              "fileName": "decisionmatrix.md",
+              "displayName": "Decision Matrix",
+              "tags": ["API, Integration, SAP CPI, SAP"]
+            },
+            {
+              "fileName": "fileETL.md",
+              "displayName": "File Based ETL and EDI",
+              "tags": ["API, Integration, SFTP, FTP, File, EDI"]
+            },
+            {
+              "fileName": "filetransport.md",
+              "displayName": "File Transfer",
+              "tags": ["API, Integration, SFTP, FTP, File"]
+            },
+            {
+              "fileName": "messaging.md",
+              "displayName": "Messaging",
+              "tags": ["API, Integration, SAP CPI, SAP"]
+            },
+            {
+              "fileName": "restsoap.md",
+              "displayName": "Rest SOAP",
+              "tags": ["API, Integration, SAP CPI, SAP"]
+            },
+            {
+              "fileName": "transactionalETL.md",
+              "displayName": "Transactional ETL",
+              "tags": ["API, Integration, ETL"]
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Streaming",
+              "files": [
+                {
+                  "fileName": "Events.md",
+                  "displayName": "Events",
+                  "tags": ["API, Integration, Event, Streaming"]
+                },
+                {
+                  "fileName": "Integration.md",
+                  "displayName": "Integrations",
+                  "tags": ["API, Integration, Event, Streaming"]
+                },
+                {
+                  "fileName": "Persistence.md",
+                  "displayName": "Streaming/Event Persistence",
+                  "tags": ["API, Integration, Streaming", "Events"]
+                },
+                {
+                  "fileName": "namingstandard.md",
+                  "displayName": "Naming Standards",
+                  "tags": ["API, Integration, Standards, Streaming"]
+                },
+                {
+                  "fileName": "streaming.md",
+                  "displayName": "What is Streaming",
+                  "tags": ["API, Integration, Streaming"]
+                },
+                {
+                  "fileName": "streamingstandards.md",
+                  "displayName": "Streaming Standards",
+                  "tags": ["API, Integration, Standards, Streaming"]
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "Tools",
+          "files": [
+            {
+              "fileName": "groovy.md",
+              "displayName": "Groovy Script",
+              "tags": ["API, Integration, Groovy"]
+            }
+          ],
+          "subDirectories": [
+            {
+              "directoryName": "Boomi",
+              "files": [
+                {
+                  "fileName": "atomsupport.md",
+                  "displayName": "Atom Support",
+                  "tags": ["API, Integration, Boomi, Support"]
+                },
+                {
+                  "fileName": "boomi.md",
+                  "displayName": "Boomi AtomSphere",
+                  "tags": ["API, Integration, Boomi"]
+                },
+                {
+                  "fileName": "devops.md",
+                  "displayName": "DevOps",
+                  "tags": ["API, Integration, Boomi, DevOps"]
+                },
+                {
+                  "fileName": "standards.md",
+                  "displayName": "Standards"
+                },
+                {
+                  "fileName": "templates.md",
+                  "displayName": "Templates & Sub Process"
+                },
+                {
+                  "fileName": "testing.md",
+                  "displayName": "Unit Testing",
+                  "tags": ["API, Integration, Boomi, Testing"]
+                }
+              ],
+              "subDirectories": []
+            },
+            {
+              "directoryName": "SAP",
+              "files": [
+                {
+                  "fileName": "spacpi.md",
+                  "displayName": "SAP CPI",
+                  "tags": ["API, Integration, SAP CPI, SAP"]
+                }
+              ],
+              "subDirectories": []
+            }
+          ]
+        },
+        {
+          "directoryName": "images",
+          "files": [
+            {
+              "fileName": "APIDesign.png",
+              "displayName": "APIDesign"
+            },
+            {
+              "fileName": "DevOpsAssert.PNG",
+              "displayName": "DevOpsAssert"
+            },
+            {
+              "fileName": "DevOpsInjectionPointCapture.PNG",
+              "displayName": "DevOpsInjectionPointCapture"
+            },
+            {
+              "fileName": "IntegrationOverview.jpg",
+              "displayName": "IntegrationOverview"
+            },
+            {
+              "fileName": "SAPCPIDevelopment.PNG",
+              "displayName": "SAPCPIDevelopment"
+            },
+            {
+              "fileName": "WIP-logo.png",
+              "displayName": "WIP-logo"
+            },
+            {
+              "fileName": "boomidev.JPG",
+              "displayName": "boomidev"
+            },
+            {
+              "fileName": "decisionmatrix.JPG",
+              "displayName": "decisionmatrix"
+            },
+            {
+              "fileName": "fileetldestinationfiledecisionmatrix.JPG",
+              "displayName": "fileetldestinationfiledecisionmatrix"
+            },
+            {
+              "fileName": "fileetlsourcefiledecisionmatrix.JPG",
+              "displayName": "fileetlsourcefiledecisionmatrix"
+            },
+            {
+              "fileName": "filetransportreceivedecisionmatrix.PNG",
+              "displayName": "filetransportreceivedecisionmatrix"
+            },
+            {
+              "fileName": "filetransportsenddecisionmatrix.PNG",
+              "displayName": "filetransportsenddecisionmatrix"
+            },
+            {
+              "fileName": "messagingconsumerdecisionmatrix.JPG",
+              "displayName": "messagingconsumerdecisionmatrix"
+            },
+            {
+              "fileName": "messagingproducerdecisionmatrix.JPG",
+              "displayName": "messagingproducerdecisionmatrix"
+            },
+            {
+              "fileName": "nginx.png",
+              "displayName": "nginx"
+            },
+            {
+              "fileName": "personas.JPG",
+              "displayName": "personas"
+            },
+            {
+              "fileName": "restsoapcoupleddecisionmatrix.JPG",
+              "displayName": "restsoapcoupleddecisionmatrix"
+            },
+            {
+              "fileName": "streamingconsumerdecisionmatrix.JPG",
+              "displayName": "streamingconsumerdecisionmatrix"
+            },
+            {
+              "fileName": "streamingproducerdecisionmatrix.JPG",
+              "displayName": "streamingproducerdecisionmatrix"
+            }
+          ],
+          "subDirectories": []
+        }
+      ]
+    }
+  ]
+}
