@@ -20,5 +20,5 @@
 //   "prettier.enableDebugLogs": true
 // }
 {
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": false
 }

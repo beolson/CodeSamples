@@ -1,6 +1,5 @@
 import React from 'react';
-import { Lines } from "../utility/Lines.jsx";
-
+import { Lines } from '../utility/Lines.jsx';
 
 export const AppSidebar = () => {
   return (

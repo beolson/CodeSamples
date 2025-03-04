@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppSidebar } from "@/components/app-sidebar"
+import { AppSidebar } from '@/components/app-sidebar';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -7,14 +7,14 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb"
-import { Separator } from "@/components/ui/separator"
+} from '@/components/ui/breadcrumb';
+import { Separator } from '@/components/ui/separator';
 import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from "@/components/ui/sidebar"
-export  function Page() {
+} from '@/components/ui/sidebar';
+export function Page() {
   return (
     <SidebarProvider>
       <AppSidebar />
@@ -48,5 +48,5 @@ export  function Page() {
         </div>
       </SidebarInset>
     </SidebarProvider>
-  )
+  );
 }
